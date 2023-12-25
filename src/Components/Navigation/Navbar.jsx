@@ -5,7 +5,7 @@ import Logo from "../../assets/Kmg.png"
 const Navbar = () => {
     return (
         
-        <div className="row shadow pt-3">
+        <div className="row fixed-top pt-4">
                 <div class="col-sm-12 col-md-12 col-lg-1"></div>
                 <div class="col-sm-12 col-md-12 col-lg-10">
         <div className='bg-primary'>
