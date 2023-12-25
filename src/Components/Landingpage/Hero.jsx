@@ -6,23 +6,23 @@
 const Hero = () => {
     return (
         <>
-        <div className="row pt-5">
+        <div className="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="col-sm-12 col-md-12 col-lg-7">
                     <div className='hero-text'>
-                        <h1>I’m Moruf Adebola, <br /> Product Designer</h1>
+                        <h1>I’m Moruf, <br/> Product Designer</h1>
                     </div>
-                    <div>
-                        <p>A product designer with years of experience, currently <br />
-                        shaping in coding the future, building digital worlds productsbr <br />
+                    <div className='hero-p'>
+                        <p>A product designer with years of experience, currently <br/>
+                        shaping in coding the future, building digital worlds productsbr <br/>
                             within energetic and dynamic cross-functional settings.
                         </p>
                     </div>
                     <div className='st-btn'>
-                    <button>Portfolio</button>
-                    <button>Hire me</button>
+                    <button className='portfolio'>Portfolio</button>
+                    <button className='hireme'>Hire me</button>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5">

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: poppins, Arial Helvetica sans-serif sans-serif sans-serif, ;
+    src: url();
+}
+
+@font-face {
+    font-family: ('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+}
+
+.hero-text h1 {
+    padding-top: 18rem;
+    color: #272829;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-p {
+        color: var(--grey-500, #5B5151);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.hero-image img{
+    padding-top: 11rem;
+}
+
+
+
+.portfolio, .hireme  {
+    color: #232057;
+    background: rgba(248, 153, 29, 0.50);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 30px;
+    border: 1px solid #B8B7B7;
+    display: flex;
+    width: 139px;
+    padding: 14px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
