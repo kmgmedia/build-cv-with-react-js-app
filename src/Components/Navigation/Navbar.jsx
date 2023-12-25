@@ -4,6 +4,7 @@ import Logo from "../../assets/Kmg.png"
 
 const Navbar = () => {
     return (
+        
         <div className="row shadow pt-3">
                 <div class="col-sm-12 col-md-12 col-lg-1"></div>
                 <div class="col-sm-12 col-md-12 col-lg-10">
@@ -59,8 +60,7 @@ const Navbar = () => {
                 <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
         
-        
     )
-    }
+}
 
 export default Navbar

@@ -1,0 +1,1 @@
+export const Heroimage = require ('./Heroimage.png')
