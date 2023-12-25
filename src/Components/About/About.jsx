@@ -1,4 +1,5 @@
 import React from 'react'
+import './about.scss';
 
 const About = () => {
     return (
@@ -52,7 +53,7 @@ const About = () => {
             <div className='get-to-know-me'>
             <h5>My Skills</h5>
             <div>
-                <a>Figma</a>
+                <button className= "btn btn-success">Figma</button>
             </div>
             </div>
             </div>
