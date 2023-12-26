@@ -5,7 +5,7 @@ import Logo from "../../assets/Kmg.png"
 const Navbar = () => {
     return (
         
-        <div className="row fixed-top pt-3">
+        <div className="row b-g-all fixed-top pt-3">
                 <div class="col-sm-12 col-md-12 col-lg-1"></div>
                 <div class="col-sm-12 col-md-12 col-lg-10">
         <div className='bg-all'>
@@ -28,7 +28,7 @@ const Navbar = () => {
                     </li>
                 </ul>
                 </div>
-        <nav className="navbar navbar-expand-lg ">
+        <nav className="navbar navbar-expand-lg">
             <a className="navbar-brand" href="#"><img src={Logo} alt="" /></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>

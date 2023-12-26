@@ -1,6 +1,7 @@
     import React from 'react'
     import './hero.scss';
     import { Heroimage } from "../../assets";
+    import { Heylogo } from "../../assets";
     import { FaLinkedin, FaBehance, FaGithub } from "react-icons/fa";
 
 const Hero = () => {
@@ -11,8 +12,11 @@ const Hero = () => {
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-7">
-                    <div className='hero-text'>
+                    <div className='hey-session '>
+                        <img src= {Heylogo} alt="" />
+                        <div className='hero-text'>
                         <h1>I’m Moruf, <br/> Product Designer</h1>
+                    </div>
                     </div>
                     <div className='hero-p'>
                         <p>A product designer with years of experience, currently <br/>
@@ -20,10 +24,13 @@ const Hero = () => {
                             within energetic and dynamic cross-functional settings.
                         </p>
                     </div>
-                    <div className='st-btn'>
+                    <div className="col-sm-12 col-md-12 col-lg-6">
+                    <div className="st-btn">
                     <button className='portfolio'>Portfolio</button>
                     <button className='hireme'>Hire me</button>
                     </div>
+                    </div>
+                    
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5">
                     <div className='hero-image'>
