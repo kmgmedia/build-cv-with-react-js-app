@@ -2,8 +2,10 @@ import React from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './Navigation/Navbar';
 import Hero from './Landingpage/Hero';
-import About from './About/About';
+// import About from './About/About';
+import Projects from './Projects/Project';
 import Footer from './Footer/Footer';
+
 
 
 
@@ -13,7 +15,8 @@ import Footer from './Footer/Footer';
         <div>
         <Navbar/>
         <Hero/>
-        <About/>
+        {/* <About/> */}
+        <Projects/>
         <Footer/>
 
         </div>

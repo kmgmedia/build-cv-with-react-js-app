@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: poppins, Arial Helvetica sans-serif sans-serif sans-serif, ;
+    src: url();
+}
+
+@font-face {
+    font-family: ('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+}
+
+
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #F8991D;
+$secondery-color: #232057;
+$secondery-color-2: #272829;
+
+
+
+.projectme {
+    text-align: center;
+}
+
+.project-1 {
+    padding-top: 5rem;
+}
+
+.kmg-folio-img-2 {
+    padding-left: 10rem;
+}
+
+
+
+.projectme h4 {
+    font-family: $font-stack;
+    color: $secondery-color;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.projectme p {
+    color: $secondery-color-2;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 35px;
+}
+
+.line {
+    display: block;
+    width: 60px;
+    height: 5px;
+    margin: 1px auto;
+    background-color: $primary-color;
+    border-radius: 6px;
+    
+}
+
+.kmg-folio-text-1 h5 {
+    color: #272829;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 1rem;
+}
+
+.kmg-folio-text-2 {
+    color: var(--grey-500, #5B5151);
+
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 2rem;
+}
+
+.kmg-folio-btn {
+    text-align: center;
+    font-family: $font-stack;
+    color: #FDFDFD;
+    font-size: 16px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 203px;
+    height: 52px;
+    padding: 18px 30px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    background: $secondery-color;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    }

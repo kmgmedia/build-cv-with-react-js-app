@@ -10,6 +10,10 @@
     src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 }
 
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #F8991D;
+$secondery-color: #232057;
+
 
 
 .hey-session {
@@ -22,18 +26,22 @@
 }
 
 .hero-text h1 {
-    color: #272829;
-    font-family: Arial, Helvetica, sans-serif;
+    color: $secondery-color;
+    font-family: $font-stack;
     font-size: 70px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
+.minename {
+    color: $primary-color
+}
+
 .hero-p {
     padding-top: 1rem;
     padding-bottom: 2rem;
-        color: var(--grey-500, #5B5151);
+    color: var(--grey-500, #5B5151);
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
@@ -49,17 +57,17 @@
 .st-btn {
     border-radius: 30px;
     display: flex;
-border: 2px solid rgba(35, 32, 87, 0.35);
-background: #D6D6D6;
-height: 72px;
-padding: 15px 26px;
-justify-content: center;
-align-items: center;
-gap: 10px;
+    border: 2px solid rgba(35, 32, 87, 0.35);
+    background: #D6D6D6;
+    height: 78px;
+    padding: 30px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .portfolio {
-    margin-right: 57px
+    margin-right: 17px
 }
 
 .hireme {
@@ -67,9 +75,9 @@ gap: 10px;
 }  
 
 .portfolio, .hireme  {
-    color: #232057;
+    color: $secondery-color;
     background: rgba(248, 153, 29, 0.50);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font-stack;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -80,4 +88,84 @@ gap: 10px;
     padding: 14px 30px;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.all-this-site {
+    background-color: #F3F3F3;
+}
+
+
+.hero-image-text {
+    padding-top: 4rem;
+    width: 1440px;
+    height: 305px;
+    flex-shrink: 0;
+    color: $secondery-color;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+
+.boldpart-1 {
+    border-radius: 10px;
+    background: $secondery-color;
+    display: inline-flex;
+    transform: rotate(-5.627deg);
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+.boldpart-2 {
+    border-radius: 10px;
+background: $primary-color;
+display: inline-flex;
+transform: rotate(1.73deg);
+padding: 6px;
+justify-content: center;
+align-items: center;
+color: $secondery-color;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 1rem;
+}
+
+.icons-all p {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hireme:hover {
+    background-color: $primary-color;
+    width: 180px;
+    color:#ffffff;
+    transition-duration: 1s;
+}
+
+.portfolio:hover {
+    background-color: $primary-color;
+    width: 180px;
+    color:#ffffff;
+    transition-duration: 1s;
 }

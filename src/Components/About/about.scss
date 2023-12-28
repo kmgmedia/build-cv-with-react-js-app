@@ -11,11 +11,115 @@
 }
 
 
-.aboutme h4{
-    color: aqua;
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #F8991D;
+$secondery-color: #232057;
+$secondery-color-2: #272829;
+
+
+.about-1 {
+    padding-top: 5rem;
+}
+
+.aboutme {
+    text-align: center;
+}
+
+.aboutme h4 {
+    font-family: $font-stack;
+    color: $secondery-color;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .aboutme p {
-    font-size: larger;
-    color: aqua;
+    color: $secondery-color-2;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 35px;
+}
+
+.line {
+    display: block;
+    width: 60px;
+    height: 5px;
+    margin: 1px auto;
+    background-color: $primary-color;
+    border-radius: 6px;
+    
+}
+
+.get-to-know-me h5 {
+    color: $secondery-color-2;
+font-family: $font-stack;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 30px;
+padding-top: 40px;
+}
+
+.get-to-know-me p {
+    color: var(--grey-500, #5B5151);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.more-bold-body {
+font-family: $font-stack;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.conta-1 {
+text-align: center;
+font-family: $font-stack;
+color: #FDFDFD;
+font-size: 16px;
+margin-top: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 203px;
+height: 52px;
+padding: 18px 30px;
+align-items: center;
+border-radius: 10px;
+border: none;
+background: #232057;
+box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.skills-list {
+    display: flex;
+    
+    
+}
+
+.skills-list-1{
+border-radius: 5px;
+background: #5B515140;
+padding: 3px 15px;
+margin-right: 2rem;
+}
+
+.skills-list p {
+    color: $secondery-color;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
