@@ -4,6 +4,9 @@ import { Macpckmgfolio } from '../../assets';
 import { Macnexcent } from '../../assets';
 import { mackbooksicklecell } from '../../assets';
 import { Phonesmarthom } from '../../assets';
+import { Macbyc } from '../../assets';
+import { Phonepethome} from '../../assets';
+
 
 const Project = () => {
     return (
@@ -114,7 +117,7 @@ const Project = () => {
                     Sickle Cell Foundation Nigeria
                     </h5>
                 </div>
-                <div className='mackbooksicklecell'>
+                <div className='kmg-folio-text-2'>
                     <p>
                     I created the UI design of Nexcent web app because I got attracted
                     to the beautiful color and I had the beautiful UI thinking right.
@@ -136,7 +139,7 @@ const Project = () => {
         <div class="col-sm-12 col-md-12 col-lg-8">
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-5">
-                <div className='kmg-folio-text-1'>
+                <div className='kmg-folio-text-1 pt-5'>
                     <h5>
                     Smart Home Real Estate
                     </h5>
@@ -155,6 +158,70 @@ const Project = () => {
             <div class="col-sm-12 col-md-12 col-lg-7">
             <div className='kmg-folio-img-2'>
             <img src= { Phonesmarthom } alt="" />
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        </div>
+
+
+        <div className="row project-1">
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-8">
+            <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-7">
+            <div className='kmg-folio-img'>
+            <img src= {Macbyc} alt="" />
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-5">
+                <div className='kmg-folio-text-1'>
+                    <h5>
+                        BYC
+                    </h5>
+                </div>
+                <div className='kmg-folio-text-2'>
+                    <p>
+                    I recreated the UI design and full-stack of the BYC official web app,
+                    which inspired me to completely revamp its back-end. Crafting the entire
+                    front-end and back-end was an immensely gratifying experience.
+                    </p>
+                </div>
+                <div className='conta'>
+                <button className='kmg-folio-btn'>Case Study</button>
+            </div>
+            </div>
+            </div>
+            
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        </div>
+
+        <div className="row project-1">
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-8">
+            <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-5">
+                <div className='kmg-folio-text-1 pt-5'>
+                    <h5>
+                    Smart Home Real Estate
+                    </h5>
+                </div>
+                <div className='kmg-folio-text-2 '>
+                    <p>
+                    I introduced products and features that significantly enhanced the
+                    conversion rate for Smart Home Real Estate and the east way clients
+                    can purchase properties from any where in the world.
+                    </p>
+                </div>
+                <div className='conta'>
+                    <button className='kmg-folio-btn'>Case Study</button>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-7">
+            <div className='kmg-folio-img-2'>
+            <img src= { Phonepethome } alt="" />
             </div>
             </div>
             

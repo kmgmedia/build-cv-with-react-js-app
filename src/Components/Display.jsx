@@ -4,6 +4,7 @@ import Navbar from './Navigation/Navbar';
 import Hero from './Landingpage/Hero';
 // import About from './About/About';
 import Projects from './Projects/Project';
+import Form from './Form/Form';
 import Footer from './Footer/Footer';
 
 
@@ -17,6 +18,7 @@ import Footer from './Footer/Footer';
         <Hero/>
         {/* <About/> */}
         <Projects/>
+        <Form/>
         <Footer/>
 
         </div>
