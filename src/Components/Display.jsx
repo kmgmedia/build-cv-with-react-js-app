@@ -1,14 +1,14 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './Navigation/Navbar';
-// import Hero from './Landingpage/Hero';
+import Hero from './Landingpage/Hero';
 import Kmgfoliobigpage from './Kmgfoliobigpage/Kmgfoliobigpage';
 import Nexcentfoliobigpage from './Nexcentfoliobigpage/Nexcentfoliobigpage';
 
 
-// import About from './About/About';
-// import Projects from './Projects/Project';
-// import Form from './Form/Form';
+import About from './About/About';
+import Projects from './Projects/Project';
+import Form from './Form/Form';
 import Footer from './Footer/Footer';
 
 
@@ -19,13 +19,13 @@ import Footer from './Footer/Footer';
     return (
         <div>
         <Navbar/>
-        {/* <Hero/> */}
+        <Hero/>
         <Kmgfoliobigpage/>
         {/* <Nexcentfoliobigpage/> */}
 
-        {/* <About/>
+        <About/>
         <Projects/>
-        <Form/> */}
+        <Form/>
         <Footer/>
 
         </div>

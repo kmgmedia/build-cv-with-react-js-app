@@ -77,20 +77,28 @@ const About = () => {
             <div className='get-to-know-me'>
             <h5>Other Skills</h5>
             <div className='skills-list'>
-                <p className='skills-list-1'>Figma</p>
-                <p className='skills-list-1'>Adobe XD</p>
-                <p className='skills-list-1'>Prototyping</p>
-                <p className='skills-list-1'>ProtoPie</p>
+                <p className='skills-list-1'>JavaScript</p>
+                <p className='skills-list-1'>HTML</p>
+                <p className='skills-list-1'>CSS</p>
+                <p className='skills-list-1'>SASS</p>
+                <p className='skills-list-1'>Github</p>
+
             </div>
             <div className='skills-list'>
-            <p className='skills-list-1'>UX Research</p>
-                <p className='skills-list-1'>UI Design</p>
-                <p className='skills-list-1'>User Experience Writing</p>
+            <p className='skills-list-1'>Mongo DB</p>
+                <p className='skills-list-1'>React JS</p>
+                <p className='skills-list-1'>Vercel</p>
+                <p className='skills-list-1'>GIT</p>
+                <p className='skills-list-1'>Tailwind</p>
+
             </div>
             <div className='skills-list'>
-            <p className='skills-list-1'>Adobe Protoshop</p>
-                <p className='skills-list-1'>Illustration</p>
-                <p className='skills-list-1'>Adobe Indesign</p>
+            <p className='skills-list-1'>Node JS</p>
+                <p className='skills-list-1'>Agile</p>
+                <p className='skills-list-1'>Postman</p>
+                <p className='skills-list-1'>SQL</p>
+                <p className='skills-list-1'>SEO</p>
+
             </div>
             </div>
             </div>
