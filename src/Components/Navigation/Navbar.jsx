@@ -34,7 +34,7 @@ const Navbar = () => {
                 <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="col-sm-12 col-md-12 col-lg-7"></div>
+                <div class="col-sm-12 col-md-12 col-lg-6"></div>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
