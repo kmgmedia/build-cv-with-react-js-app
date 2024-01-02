@@ -1,9 +1,39 @@
 import React from 'react'
 import './about.scss';
+import { Heroimage } from "../../assets";
+import { Heylogo } from "../../assets";
 
 const About = () => {
     return (
         <>
+        
+        <div className="row">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-10">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div className='hey-session-about '>
+                        <div className='hero-text-about'>
+                        <h1>I'm a product designer with years of experience,
+                            currently shaping in coding the future, building
+                            digital worlds products within energetic and dynamic
+                            cross-functional settings. </h1>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div className='hero-about-image'>
+                        <img src= {Heroimage} alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        
+        
+        
+        
         <div className="row about-1">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">

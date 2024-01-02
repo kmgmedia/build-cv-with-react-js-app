@@ -17,8 +17,25 @@ $secondery-color: #232057;
 $secondery-color-2: #272829;
 
 
+.hero-text-about {
+    padding-top: 22rem;
+    color: var(--grey-500, #5B5151);
+font-family: Poppins;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.hero-about-image {
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+
+
+
 .about-1 {
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 .aboutme {

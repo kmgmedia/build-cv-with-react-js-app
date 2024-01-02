@@ -12,7 +12,14 @@
 
 
 .b-g-all {
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0.20) 100%);
+    backdrop-filter: blur(25px);
+    display: inline-flex;
+    height: 125px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
 }
 
 .bg-all{
@@ -22,7 +29,9 @@
     align-items: flex-start;
     gap: 10px;
     border-radius: 30px;
-    background: #F8991D;
+    border: 1px solid rgba(248, 153, 29, 0.60);
+    background: linear-gradient(180deg, rgba(248, 153, 29, 0.60) 0%, rgba(248, 153, 29, 0.35) 100%);
+    backdrop-filter: blur(10px);
 }
 
 .navbar {
