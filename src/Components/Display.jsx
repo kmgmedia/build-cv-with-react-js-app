@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './Navigation/Navbar';
-// import Hero from './Landingpage/Hero';
-// import Kmgfoliobigpage from './Kmgfoliobigpage/Kmgfoliobigpage';
+import Hero from './Landingpage/Hero';
+import Kmgfoliobigpage from './Kmgfoliobigpage/Kmgfoliobigpage';
 import Nexcentfoliobigpage from './Nexcentfoliobigpage/Nexcentfoliobigpage';
 
 
@@ -20,11 +20,11 @@ import Footer from './Footer/Footer';
         <div>
         <Navbar/>
         {/* <Hero/> */}
-        {/* <Kmgfoliobigpage/> */}
+        <Kmgfoliobigpage/>
         {/* <Nexcentfoliobigpage/> */}
 
-        <About/>
-        <Projects/>
+        {/* <About/> */}
+        {/* <Projects/> */}
         <Form/>
         <Footer/>
 
