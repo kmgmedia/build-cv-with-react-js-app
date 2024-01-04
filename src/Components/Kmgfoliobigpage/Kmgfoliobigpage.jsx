@@ -116,7 +116,7 @@ const Kmgfoliobigpage = () => {
                         <div className='folio-text'>
                             <h5>See Live</h5>
                         </div>
-                        <div className='btnn-121'>
+                        <div className='btnn-111'>
                             <button className='btnn1'>Live Link</button>
                             <button className='btnn-2'>Go Back</button>
                         </div>

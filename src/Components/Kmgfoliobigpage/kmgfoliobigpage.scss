@@ -139,14 +139,27 @@ line-height: normal;
     }
 
     .btnn-2 {
-        color: $secondery-color;
+padding: 13px 25px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+border: 2px solid #232057;
+color: #232057;
 text-align: center;
 font-family: Poppins;
 font-size: 16px;
-font-style: normal;
 font-weight: 600;
 line-height: normal;
+background-color: #FDFDFD;
     }
+
+
+
+    .btnn-111 {
+        padding-bottom: 7rem;
+    }
+
 
     .btnn-121 .btnn1 {
         
@@ -159,3 +172,27 @@ border-radius: 10px;
 background: #232057;
 box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
     }
+
+    .btnn1 {
+        text-align: center;
+        font-family: $font-stack;
+        color: #FDFDFD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 203px;
+        height: 52px;
+        padding: 18px 30px;
+        align-items: center;
+        border-radius: 10px;
+        border: none;
+        margin-right: 2rem;
+        background: $secondery-color;
+        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+        }
+
+
+        
+
+
