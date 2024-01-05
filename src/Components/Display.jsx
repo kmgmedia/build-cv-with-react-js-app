@@ -4,6 +4,9 @@ import Navbar from './Navigation/Navbar';
 import Hero from './Landingpage/Hero';
 import Kmgfoliobigpage from './Kmgfoliobigpage/Kmgfoliobigpage';
 import Nexcentfoliobigpage from './Nexcentfoliobigpage/Nexcentfoliobigpage';
+import Sicklefolio from './Sicklefolio/Sicklefolio';
+import Smarthomefolio from './Smarthomefolio/Smarthomefolio';
+
 
 
 import About from './About/About';
@@ -20,8 +23,12 @@ import Footer from './Footer/Footer';
         <div>
         <Navbar/>
         {/* <Hero/> */}
-        <Kmgfoliobigpage/>
+        {/* <Kmgfoliobigpage/> */}
         {/* <Nexcentfoliobigpage/> */}
+        {/* <Sicklefolio/> */}
+        <Smarthomefolio/>
+
+
 
         {/* <About/> */}
         {/* <Projects/> */}
