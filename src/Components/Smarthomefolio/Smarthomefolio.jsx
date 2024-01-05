@@ -12,12 +12,12 @@ const Smarthomefolio = () => {
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
             <div className='aboutme-big'>
-            <h2>Nexcent</h2>
+            <h2>Smart Home Real Estate</h2>
             <div>
                 <p>
-                This page contains the case study of Kmgfolio 
-                Project which includes the Project Overview, <br />
-                Tools Used and Live Links to the official product.</p>
+                This page contains the case study of Smart Home Real Estate
+                Project which includes the <br /> Project Overview, Tools Used and
+                Live Links to the official product.</p>
             </div>
             </div>
             </div>

@@ -12,12 +12,13 @@ const Sicklefolio = () => {
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
             <div className='aboutme-big'>
-            <h2>Nexcent</h2>
+            <h2>Sickle Cell Foundation Nigeria</h2>
             <div>
                 <p>
-                This page contains the case study of Kmgfolio 
-                Project which includes the Project Overview, <br />
-                Tools Used and Live Links to the official product.</p>
+                This page contains the case study of Sickle Cell
+                Foundation Nigeria  Project which includes <br />
+                the Project Overview, Tools Used and Live Links to the
+                official product.</p>
             </div>
             </div>
             </div>
@@ -60,10 +61,13 @@ const Sicklefolio = () => {
                             <h5>Project Overview</h5>
                         </div>
                         <p>
-                        Kmgfolio sand as a victorious, born from my creative drive.
-                        I created this project to quickly build a good-looking and fast
-                        performing multi-stage portfolio. Feel free to check out the project
-                        by visiting the project link below.
+                        I created the UI design and develop the front-end of
+                        Nexcent web app <br /> because I got attracted to this beautiful
+                        color (Green) and I had the <br /> beautiful UI thinking right.
+                        Its was a great experience for me to build the UI <br /> and the
+                        entire front-end. I used my frontend tools to build the User
+                        Interface which works on all types of devices to make the frontend
+                        perform faster. <br /> Feel free to check out the Project by visiting the Live Link.
                         </p>
                     </div>
                 </div>
@@ -81,18 +85,13 @@ const Sicklefolio = () => {
             <h5>Tools Used</h5>
             <div className='skills-list-12'>
                 <p className='skills-list-13'>UX Research</p>
+                <p className='skills-list-13'>User Experience Writing</p>
                 <p className='skills-list-13'>Figma</p>
-                <p className='skills-list-13'>UI Design</p>
                 <p className='skills-list-13'>Prototyping</p>
-                <p className='skills-list-13'>React JS</p>
 
             </div>
             <div className='skills-list-12'>
-            <p className='skills-list-13'>SASS</p>
-                <p className='skills-list-13'>JavaScript</p>
-                <p className='skills-list-13'>Node JS</p>
-                <p className='skills-list-13'>Mongo DB</p>
-                <p className='skills-list-13'>GIT</p>
+            <p className='skills-list-13'>UI Design</p>
             </div>
             </div>
                 </div>
