@@ -61,14 +61,19 @@ const Sicklefolio = () => {
                             <h5>Project Overview</h5>
                         </div>
                         <p>
-                        I created the UI design and develop the front-end of
-                        Nexcent web app <br /> because I got attracted to this beautiful
-                        color (Green) and I had the <br /> beautiful UI thinking right.
-                        Its was a great experience for me to build the UI <br /> and the
-                        entire front-end. I used my frontend tools to build the User
-                        Interface which works on all types of devices to make the frontend
-                        perform faster. <br /> Feel free to check out the Project by visiting the Live Link.
+                        I created the UI design with a team and I had the
+                        opportunity to make <br />some beautiful design
+                        easy to understand for users. The UI Design of <br />
+                        sickle Cell Foundation Nigeria web app. I got attracted
+                        to this beautiful <br /> Card session of the the design and the
+                        landing page sessions.  Its was a <br /> great experience for me
+                        to build the UI Design.</p>
+                        <p>
+                        I used my UI/UX tools to build the
+                        User Interface which works on all types <br />of devices to make the
+                        frontend perform beautiful user experience.
                         </p>
+                        <p>Feel free to check out the Project by visiting the Live Link.</p>
                     </div>
                 </div>
             </div>

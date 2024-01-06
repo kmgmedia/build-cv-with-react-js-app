@@ -119,9 +119,9 @@ const Project = () => {
                 </div>
                 <div className='kmg-folio-text-2'>
                     <p>
-                    I created the UI design of Nexcent web app because I got attracted
-                    to the beautiful color and I had the beautiful UI thinking right.
-                    Its was a great experience for me to build the UI and the entire frontend.
+                    I created the UI design with a team and I had the opportunity
+                    to make some beautiful design easy to understand for users.
+                    The UI Design of sickle Cell Foundation Nigeria web app.
                     </p>
                 </div>
                 <div className='conta'>
@@ -146,9 +146,10 @@ const Project = () => {
                 </div>
                 <div className='kmg-folio-text-2'>
                     <p>
-                    I introduced products and features that significantly enhanced the
-                    conversion rate for Smart Home Real Estate and the east way clients
-                    can purchase properties from any where in the world.
+                    Dedicated to making this Smart Home App a difference for
+                    both business and users. I introduced products and features
+                    that significantly enhanced the conversion rate for Smart Home
+                    Real Estate.
                     </p>
                 </div>
                 <div className='conta'>
@@ -183,9 +184,11 @@ const Project = () => {
                 </div>
                 <div className='kmg-folio-text-2'>
                     <p>
-                    I recreated the UI design and full-stack of the BYC official web app,
-                    which inspired me to completely revamp its back-end. Crafting the entire
-                    front-end and back-end was an immensely gratifying experience.
+                    BYC is a multi-service E-commerce platform. I utilized my skills
+                    in UI Design and Full-Stack Web Development to craft their
+                    multi-page website, enhancing their online presence and
+                    distinguishing them amidst competitors. This effort aimed to
+                    enhance user experiences.
                     </p>
                 </div>
                 <div className='conta'>
@@ -210,9 +213,9 @@ const Project = () => {
                 </div>
                 <div className='kmg-folio-text-2 '>
                     <p>
-                    I introduced products and features that significantly enhanced the
-                    conversion rate for Smart Home Real Estate and the east way clients
-                    can purchase properties from any where in the world.
+                    Committed to transforming the Pet Home App for businesses
+                    and users alike, I implemented innovative products and features.
+                    These enhancements notably boosted Pet Home's conversion rates
                     </p>
                 </div>
                 <div className='conta'>

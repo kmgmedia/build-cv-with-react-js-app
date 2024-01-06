@@ -60,11 +60,12 @@ const Smarthomefolio = () => {
                             <h5>Project Overview</h5>
                         </div>
                         <p>
-                        Kmgfolio sand as a victorious, born from my creative drive.
-                        I created this project to quickly build a good-looking and fast
-                        performing multi-stage portfolio. Feel free to check out the project
-                        by visiting the project link below.
-                        </p>
+                        Dedicated to making this Smart Home App a difference for
+                        both business and users. I introduced products and features
+                        that significantly enhanced the conversion rate for Smart
+                        Home Real Estate and the easy way clients can purchase properties
+                        from anywhere in the world.</p>
+                        <p>Feel free to check out the Project by visiting the Live Link.</p>
                     </div>
                 </div>
             </div>
@@ -81,18 +82,14 @@ const Smarthomefolio = () => {
             <h5>Tools Used</h5>
             <div className='skills-list-12'>
                 <p className='skills-list-13'>UX Research</p>
+                <p className='skills-list-13'>User Experience Writing</p>
                 <p className='skills-list-13'>Figma</p>
-                <p className='skills-list-13'>UI Design</p>
-                <p className='skills-list-13'>Prototyping</p>
-                <p className='skills-list-13'>React JS</p>
+                <p className='skills-list-13'>Prototying</p>
+                
 
             </div>
             <div className='skills-list-12'>
-            <p className='skills-list-13'>SASS</p>
-                <p className='skills-list-13'>JavaScript</p>
-                <p className='skills-list-13'>Node JS</p>
-                <p className='skills-list-13'>Mongo DB</p>
-                <p className='skills-list-13'>GIT</p>
+            <p className='skills-list-13'>UI Design</p>
             </div>
             </div>
                 </div>

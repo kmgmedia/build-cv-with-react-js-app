@@ -10,6 +10,12 @@ export const Macpckmgfoliobig = require ('./Macpckmgfoliobig.png')
 export const Macnexcentbig = require ('./Macnexcentbig.png')
 export const mackbooksicklecellbig = require ('./mackbooksicklecellbig.png')
 export const Phonesmarthombig = require ('./Phonesmarthombig.png')
+export const Macbycbig = require ('./Macbycbig.png')
+export const Phonepethomebig = require ('./Phonepethomebig.png')
+
+
+
+
 
 
 

@@ -6,6 +6,10 @@ import Kmgfoliobigpage from './Kmgfoliobigpage/Kmgfoliobigpage';
 import Nexcentfoliobigpage from './Nexcentfoliobigpage/Nexcentfoliobigpage';
 import Sicklefolio from './Sicklefolio/Sicklefolio';
 import Smarthomefolio from './Smarthomefolio/Smarthomefolio';
+import Bycfolio from './Bycfolio/Bycfolio';
+import Pethomefolio from './Pethomefolio/Pethomefolio';
+
+
 
 
 
@@ -26,7 +30,9 @@ import Footer from './Footer/Footer';
         {/* <Kmgfoliobigpage/> */}
         {/* <Nexcentfoliobigpage/> */}
         {/* <Sicklefolio/> */}
-        <Smarthomefolio/>
+        {/* <Smarthomefolio/> */}
+        {/* <Bycfolio/> */}
+        <Pethomefolio/>
 
 
 
