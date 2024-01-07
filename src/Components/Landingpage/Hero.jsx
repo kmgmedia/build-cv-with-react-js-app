@@ -7,7 +7,7 @@
 const Hero = () => {
     return (
         <>
-        <div className="row">
+        <div className=" body row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">

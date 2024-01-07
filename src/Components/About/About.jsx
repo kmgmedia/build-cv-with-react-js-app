@@ -32,8 +32,6 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         
         
-        
-        
         <div className="row about-1">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
@@ -138,6 +136,11 @@ const About = () => {
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
+
+
+
+
+
         </>
     )
 }
