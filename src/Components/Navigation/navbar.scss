@@ -11,6 +11,13 @@
 }
 
 
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #F8991D;
+$secondery-color: #232057;
+$secondery-color-2: #272829;
+
+
+
 .b-g-all {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0.20) 100%);
     backdrop-filter: blur(15px);
@@ -40,6 +47,11 @@
     align-items: center;
 }
 
+.nav-link {
+    color: $secondery-color !important;
+}
+
+
 .navbar-nav {
     display: flex;
     align-items: center;
@@ -57,7 +69,7 @@
     align-items: center;
     gap: 10px;
     border-radius: 15px;
-    background: #232057;
+    background: $primary-color;
     
 }
 

@@ -10,10 +10,17 @@
     src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 }
 
+
 $font-stack: Arial, Helvetica, sans-serif;
 $primary-color: #F8991D;
 $secondery-color: #232057;
 $secondery-color-2: #272829;
+
+
+
+.row {
+    margin: 0 !important;
+}
 
 
 .aboutme-big h2 {
@@ -41,7 +48,6 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
 
 
 .kmg-folio-big-btn {
@@ -190,8 +196,3 @@ box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
         background: $secondery-color;
         box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
         }
-
-
-        
-
-

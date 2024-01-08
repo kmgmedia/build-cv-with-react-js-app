@@ -6,6 +6,7 @@ import { Backgroundpatternherosession } from '../../assets';
 
 
 
+
 const Kmgfoliobigpage = () => {
     return (
     <>
