@@ -10,21 +10,38 @@
     src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 }
 
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #F8991D;
+$secondery-color: #232057;
+$secondery-color-2: #272829;
+
+
+.line2 {
+    display: block;
+    width: 1308.5px;;
+    height: 2px;
+    margin: 2px auto;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
 
 .footers {
     background-color:#232057;
     color: #FFFFFF;
     height: 348px;
-    padding: 89px 181px;
+    padding: 55px 189px;
 }
 
 
 .footer-bold-text h3 {
     padding-bottom: 2rem;
+    padding-top: 4rem;
 }
 
 .footer-bold-text h5 {
     padding-bottom: 2rem;
+    padding-top: 4rem;
 }
 
 .bbtn1 {

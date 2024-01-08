@@ -10,6 +10,7 @@ const Footer = () => {
             <div class="col-sm-12 col-md-12 col-lg-10">
                 <div className="row footer-bold-text">
                     <div class="col-sm-12 col-md-12 col-lg-5">
+                    <span className="line2"></span>
                         <h3>MORUF ADEBOLA</h3>
                     <p>
                     A product designer with years of experience, currently
@@ -23,7 +24,7 @@ const Footer = () => {
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
 
-                    <div class="col-sm-12 col-md-12 col-lg-2">
+                    <div class="col-sm-12 col-md-12 col-lg-3">
                     <h5>Contact</h5>
                     <p>+234 915 096 2867</p>
                     <p>morufbadebola@gmail.com</p>
