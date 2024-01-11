@@ -69,7 +69,7 @@ const About = () => {
                 success in the <span className='more-bold-body'>Design Industry,</span> and I <br />can always eager to expand my knowledge
                 to create stunning <br /> designs.</p>
                 <p>
-                When I’m not working, I continues to learn and
+                When I’m not working, I love to <span className='more-bold-body'>see new places</span>, I continues to learn and
                 explore new <br /> technologies like NFT, Animations to enhance my impressive <span className='more-bold-body'>portfolio.</span> <br />
                 </p>
                 <p>I’m open to <span className='more-bold-body'>Job</span> opportunities where i can contribute, learn and grow. <br />

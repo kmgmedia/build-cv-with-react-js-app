@@ -26,7 +26,7 @@ const Hero = () => {
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6">
                     <div className="st-btn">
-                    <button className='portfolio'>Portfolio</button>
+                    <button className='portfolio'>Projects</button>
                     <button className='hireme'>Hire me</button>
                     </div>
                     </div>

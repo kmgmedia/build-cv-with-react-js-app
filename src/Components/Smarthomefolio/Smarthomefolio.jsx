@@ -77,6 +77,31 @@ const Smarthomefolio = () => {
         <div class="col-sm-12 col-md-12 col-lg-4"></div>
         <div class="col-sm-12 col-md-12 col-lg-8">
             <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <div className='folio-session '>
+                        <div className='folio-text'>
+                            <h5>The Approach</h5>
+                        </div>
+                        <p>
+                        Improving the user experience (UX) in real estate starts
+                        with a comprehensive understanding of distinct user
+                        segments, including international buyers, sellers, and
+                        agents. This entails conducting thorough research to
+                        pinpoint their challenges and preferences. Subsequently,
+                        implementing usability testing and continuously gathering
+                        feedback is essential.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4"></div>
+
+
+        <div className="row">
+        <div class="col-sm-12 col-md-12 col-lg-4"></div>
+        <div class="col-sm-12 col-md-12 col-lg-8">
+            <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-">
                 <div className='folio-session folio-text'>
             <h5>Tools Used</h5>
