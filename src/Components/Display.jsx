@@ -8,11 +8,6 @@ import Sicklefolio from './Sicklefolio/Sicklefolio';
 import Smarthomefolio from './Smarthomefolio/Smarthomefolio';
 import Bycfolio from './Bycfolio/Bycfolio';
 import Pethomefolio from './Pethomefolio/Pethomefolio';
-
-
-
-
-
 import About from './About/About';
 import Projects from './Projects/Project';
 import Form from './Form/Form';
