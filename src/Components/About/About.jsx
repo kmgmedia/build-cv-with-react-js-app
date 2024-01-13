@@ -7,7 +7,7 @@ const About = () => {
     return (
         <>
         
-        <div className="row">
+        {/* <div className="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
@@ -29,7 +29,7 @@ const About = () => {
             </div>
         </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div> */}
         
         
         <div className="row about-1">
@@ -91,7 +91,7 @@ const About = () => {
             </div>
             <div className='skills-list'>
             <p className='skills-list-1'>UX Research</p>
-                <p className='skills-list-1'>UI Design</p>
+                <p className='skills-list-1'>FigJam</p>
                 <p className='skills-list-1'>User Experience Writing</p>
             </div>
             <div className='skills-list'>
@@ -106,8 +106,8 @@ const About = () => {
             <h5>Other Skills</h5>
             <div className='skills-list'>
                 <p className='skills-list-1'>JavaScript</p>
+                <p className='skills-list-1'>Bootstrap</p>
                 <p className='skills-list-1'>HTML</p>
-                <p className='skills-list-1'>CSS</p>
                 <p className='skills-list-1'>SASS</p>
                 <p className='skills-list-1'>Github</p>
 
@@ -125,6 +125,7 @@ const About = () => {
                 <p className='skills-list-1'>Agile</p>
                 <p className='skills-list-1'>Postman</p>
                 <p className='skills-list-1'>SQL</p>
+                <p className='skills-list-1'>CSS</p>
                 <p className='skills-list-1'>SEO</p>
 
             </div>
