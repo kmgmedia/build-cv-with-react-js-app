@@ -22,10 +22,10 @@ import Footer from './Footer/Footer';
         <div>
         <Navbar/>
         {/* <Hero/> */}
-        {/* <Kmgfoliobigpage/> */}
+        <Kmgfoliobigpage/>
         {/* <Nexcentfoliobigpage/> */}
         {/* <Sicklefolio/> */}
-        <Smarthomefolio/>
+        {/* <Smarthomefolio/> */}
         {/* <Bycfolio/> */}
         {/* <Pethomefolio/> */}
 
