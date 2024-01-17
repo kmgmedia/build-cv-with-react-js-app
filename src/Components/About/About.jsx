@@ -101,7 +101,6 @@ const About = () => {
             </div>
             </div>
 
-
             <div className='get-to-know-me'>
             <h5>Other Skills</h5>
             <div className='skills-list'>
@@ -127,17 +126,50 @@ const About = () => {
                 <p className='skills-list-1'>SQL</p>
                 <p className='skills-list-1'>CSS</p>
                 <p className='skills-list-1'>SEO</p>
-
             </div>
             </div>
             </div>
-            
-            
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
+        
 
+
+
+
+        <div className="row about-1">
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-8">
+            <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-18">
+            
+            <div className='experience'>
+            <h4>EXPERIENCE</h4>
+            <span className="line"></span>
+            </div>
+
+
+
+
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        
 
 
 

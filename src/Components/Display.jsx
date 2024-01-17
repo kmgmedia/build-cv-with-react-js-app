@@ -21,7 +21,7 @@ import Footer from './Footer/Footer';
     return (
         <div>
         <Navbar/>
-        <Hero/>
+        {/* <Hero/> */}
         {/* <Kmgfoliobigpage/> */}
         {/* <Nexcentfoliobigpage/> */}
         {/* <Sicklefolio/> */}
@@ -32,7 +32,7 @@ import Footer from './Footer/Footer';
 
 
         <About/>
-        <Projects/>
+        {/* <Projects/> */}
         <Form/>
         <Footer/>
 

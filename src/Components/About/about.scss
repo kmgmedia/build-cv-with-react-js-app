@@ -38,18 +38,18 @@ line-height: normal;
     padding-top: 3rem;
 }
 
-.aboutme {
+.aboutme, .experience {
     text-align: center;
 }
 
-.aboutme h4 {
+.aboutme h4, .experience h4 {
     font-family: $font-stack;
     color: $secondery-color;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-top: 10rem;
+    padding-top: 7rem;
 }
 
 .aboutme p {
@@ -80,8 +80,8 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-padding-bottom: 30px;
-padding-top: 40px;
+padding-bottom: 25px;
+padding-top: 30px;
 }
 
 .get-to-know-me p {
@@ -106,7 +106,7 @@ text-align: center;
 font-family: $font-stack;
 color: #FDFDFD;
 font-size: 16px;
-margin-top: 50px;
+margin-top: 35px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -141,3 +141,19 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
+
+.experience {
+    text-align: center;
+}
+
+.experience h4 {
+    font-family: $font-stack;
+    color: $secondery-color;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 2rem;
+}
+
+

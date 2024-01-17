@@ -24,7 +24,8 @@ const Hero = () => {
                             within energetic and dynamic cross-functional settings.
                         </p>
                     </div>
-                    <div className="col-sm-12 col-md-12 col-lg-6">
+                    <div className="col-sm-12 colnpm run dev
+                    -md-12 col-lg-6">
                     <div className="st-btn">
                     <button className='portfolio'>Projects</button>
                     <button className='hireme'>Hire me</button>
