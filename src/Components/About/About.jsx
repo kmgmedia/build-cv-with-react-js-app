@@ -139,25 +139,58 @@ const About = () => {
 
 
         <div className="row about-1">
-        <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        <div class="col-sm-12 col-md-12 col-lg-8">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-18">
-            
+            <div class="col-sm-12 col-md-12 col-lg-12">
             <div className='experience'>
             <h4>EXPERIENCE</h4>
             <span className="line"></span>
             </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        </div>
 
-
-
-
+        <div className="row pt-5">
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-10">
+            <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div className='idclngname'>
+            <h5>IDCLng</h5>
+            <div>
+                <p>
+                Experience Product Designer/ <br />
+                Cooperate Branding, Agile/Scrum Master</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-2">
+            <div className="circle">
+                <div className="overlap-group">
+                <div className="ellipse" />
+                <div className="elip" />
+            </div>
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div className='Year-of-work'>
+            <h5>2023/2024</h5>
+            <div>
+                <p>
+                Highly proficient in designing applications, <br /> committed
+                to delivering efficient solutions that <br /> exceed client
+                expectations. Possesses strong <br /> problem-solving skills and
+                the ability to adapt <br /> quickly to new technologies.</p>
+            </div>
+            </div>
             </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         </div>
-
 
 
 

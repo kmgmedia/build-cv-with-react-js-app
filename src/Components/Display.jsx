@@ -28,12 +28,9 @@ import Footer from './Footer/Footer';
         {/* <Smarthomefolio/> */}
         {/* <Bycfolio/> */}
         {/* <Pethomefolio/> */}
-
-
-
         <About/>
         {/* <Projects/> */}
-        <Form/>
+        {/* <Form/> */}
         <Footer/>
 
         </div>
