@@ -2,6 +2,11 @@ import React from 'react'
 import './about.scss';
 import { Heroimage } from "../../assets";
 import { Heylogo } from "../../assets";
+import { Experience } from "../../assets";
+import { Experience1 } from "../../assets";
+
+
+
 
 const About = () => {
     return (
@@ -159,7 +164,7 @@ const About = () => {
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div className='idclngname'>
-            <h5>IDCLng</h5>
+            <h4>IDCLng</h4>
             <div>
                 <p>
                 Experience Product Designer/ <br />
@@ -168,11 +173,8 @@ const About = () => {
             </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-2">
-            <div className="circle">
-                <div className="overlap-group">
-                <div className="ellipse" />
-                <div className="elip" />
-            </div>
+            <div className="Experience">
+            <img src= {Experience} alt="" />
             </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
@@ -193,19 +195,40 @@ const About = () => {
         </div>
 
 
-
-
-
-
-
-
-
-
-
-        
-
-
-
+        <div className="row pt-5">
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-10">
+            <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div className='idclngname'>
+            <h4>United States Of Africa</h4>
+            <div>
+                <p>
+                Freelance Graphic Designer/ <br /> UI UX Designer</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-2">
+            <div className="Experience">
+            <img src= {Experience1} alt="" />
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div className='Year-of-work'>
+            <h5>2022/2023</h5>
+            <div>
+                <p>
+                Working with the organisation is a good privilege <br />for me to
+                explore many good designs that will <br /> attract audiences on social
+                media. <br /> Demonstrates strong problem-solving skills and <br /> a rapid
+                adaptability to new technologies.</p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        </div>
 
         </>
     )

@@ -156,14 +156,14 @@ line-height: normal;
     padding-top: 2rem;
 }
 
-.idclngname h5 {
+.idclngname h4 {
     color: $secondery-color-2;
 font-family: $font-stack;
-font-size: 24px;
+font-size: 29px;
 font-style: normal;
-font-weight: 700;
+font-weight: 800;
 line-height: normal;
-padding-bottom: 25px;
+padding-bottom: 20px;
 padding-top: 30px;
 }
 
@@ -183,7 +183,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-padding-bottom: 25px;
+padding-bottom: 30px;
 padding-top: 30px;
 }
 
@@ -197,40 +197,10 @@ line-height: normal;
 }
 
 
-.circle {
-    height: 46px;
+.Experience {
+    
     width: 46px;
     margin-left: 4rem;
     padding-top: 1rem;
-}
-
-.circle .overlap-group {
-    border-radius: 25px;
-    height: 50px;
-    left: -2px;
-    position: relative;
-    top: -2px;
-    width: 50px;
-}
-
-.circle .ellipse {
-    background-color: #f8991d;
-    border-radius: 17px;
-    height: 34px;
-    left: 8px;
-    position: absolute;
-    top: 8px;
-    width: 34px;
-}
-
-.circle .elip {
-    border: 2px dashed;
-    border-color: #5b5151;
-    border-radius: 25px;
-    height: 50px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 50px;
 }
 
