@@ -4,8 +4,8 @@ import { Heroimage } from "../../assets";
 import { Heylogo } from "../../assets";
 import { Experience } from "../../assets";
 import { Experience1 } from "../../assets";
-
-
+import { Experience2 } from "../../assets";
+import { Experience3 } from "../../assets";
 
 
 const About = () => {
@@ -195,7 +195,7 @@ const About = () => {
         </div>
 
 
-        <div className="row pt-5">
+        <div className="row">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
@@ -222,6 +222,80 @@ const About = () => {
                 explore many good designs that will <br /> attract audiences on social
                 media. <br /> Demonstrates strong problem-solving skills and <br /> a rapid
                 adaptability to new technologies.</p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        </div>
+
+        <div className="row">
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-10">
+            <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div className='idclngname'>
+            <h4>KmgMedia</h4>
+            <div>
+                <p>
+                Freelance Graphic Designer/ <br />
+                UI UX Designer, Cooperate Branding</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-2">
+            <div className="Experience">
+            <img src= {Experience2} alt="" />
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div className='Year-of-work'>
+            <h5>2019/2024</h5>
+            <div>
+                <p>
+                Expertly manage and manipulate grids and grid structures,
+                while overseeing artwork design <br /> through two primary channels:
+                crafting original designs tailored to the company's objectives <br />
+                and requirements, and implementing alternative design solutions
+                to align with business needs, employing a user-generated design
+                (UCD) <br /> approach. Collaborated across functions to consistently achieve
+                a client satisfaction rate of <br /> 95%.</p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        </div>
+
+        <div className="row">
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-10">
+            <div class="row gbengus12">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div className='idclngname'>
+            <h4>Gbengus Production</h4>
+            <div>
+                <p>
+                Screen Printing / Graphic Design, <br /> Cooperate Branding</p>
+            </div>
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-2">
+            <div className="Experience">
+            <img src= {Experience3} alt="" />
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div className='Year-of-work'>
+            <h5>2009/2012</h5>
+            <div>
+                <p>
+                Proficient in developing cutting-edge screen printing designs,
+                committed to delivering solutions that exceed client expectations.
+                Demonstrates adept problem-solving skills and proactively embraces
+                emerging design trends.</p>
             </div>
             </div>
             </div>

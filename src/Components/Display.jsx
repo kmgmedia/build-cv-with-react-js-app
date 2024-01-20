@@ -29,7 +29,7 @@ import Footer from './Footer/Footer';
         {/* <Bycfolio/> */}
         {/* <Pethomefolio/> */}
         <About/>
-        {/* <Projects/> */}
+        <Projects/>
         {/* <Form/> */}
         <Footer/>
 
