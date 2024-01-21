@@ -1,12 +1,12 @@
 import React from 'react'
 import './nexcentfoliobigpage.scss';
-import { Macnexcentbig } from '../../assets';
+import { Macnexcentbig, Backgroundpattern } from '../../assets';
 
 const Nexcentfoliobigpage = () => {
   return (
     <>
 
-<div className="row about-big-1">
+<div className="row about-big-1" style={{backgroundImage: `url(${Backgroundpattern})`}}>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="row">
@@ -35,9 +35,6 @@ const Nexcentfoliobigpage = () => {
             </div>
         </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-
         <div className="row about-big-img-1">
         <div class="col-sm-12 col-md-12 col-lg-4"></div>
         <div class="col-sm-12 col-md-12 col-lg-2">
@@ -48,6 +45,9 @@ const Nexcentfoliobigpage = () => {
             </div>
             </div>
             </div>
+        </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
 
         <div className="row">
@@ -120,7 +120,6 @@ const Nexcentfoliobigpage = () => {
         </div>
 
         <div class="col-sm-12 col-md-12 col-lg-3"></div>
-        </div>
     
     </>
   )

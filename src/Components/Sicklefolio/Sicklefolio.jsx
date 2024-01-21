@@ -1,12 +1,12 @@
 import React from 'react'
 import './sicklefolio.scss';
-import { mackbooksicklecellbig } from '../../assets';
+import { mackbooksicklecellbig, Backgroundpattern } from '../../assets';
 
 const Sicklefolio = () => {
     return (
         <>
         
-        <div className="row about-big-1">
+        <div className="row about-big-1" style={{backgroundImage: `url(${Backgroundpattern})`}}>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="row">
@@ -36,9 +36,6 @@ const Sicklefolio = () => {
             </div>
         </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-
         <div className="row about-big-img-1">
         <div class="col-sm-12 col-md-12 col-lg-4"></div>
         <div class="col-sm-12 col-md-12 col-lg-2">
@@ -49,6 +46,9 @@ const Sicklefolio = () => {
             </div>
             </div>
             </div>
+        </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
 
         <div className="row">
@@ -124,7 +124,6 @@ const Sicklefolio = () => {
         </div>
 
         <div class="col-sm-12 col-md-12 col-lg-3"></div>
-        </div>
         
         
         

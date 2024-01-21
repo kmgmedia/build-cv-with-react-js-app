@@ -39,9 +39,6 @@ const Kmgfoliobigpage = () => {
             </div>
         </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-
         <div className="row about-big-img-1">
         <div class="col-sm-12 col-md-12 col-lg-4"></div>
         <div class="col-sm-12 col-md-12 col-lg-2">
@@ -53,8 +50,11 @@ const Kmgfoliobigpage = () => {
             </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-3"></div>
         </div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        </div>
+
+        
 
         <div className="row">
         <div class="col-sm-12 col-md-12 col-lg-4"></div>

@@ -1,12 +1,12 @@
 import React from 'react'
 import './smarthomefolio.scss';
-import { Phonesmarthombig } from '../../assets';
+import { Phonesmarthombig, Backgroundpattern } from '../../assets';
 
 const Smarthomefolio = () => {
     return (
         <>
         
-        <div className="row about-big-1">
+        <div className="row about-big-1" style={{backgroundImage: `url(${Backgroundpattern})`}}>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="row">
