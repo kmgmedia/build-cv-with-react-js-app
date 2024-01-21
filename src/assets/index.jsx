@@ -16,6 +16,9 @@ export const Experience = require ('./Experience.png')
 export const Experience1 = require ('./Experience1.png')
 export const Experience2 = require ('./Experience2.png')
 export const Experience3 = require ('./Experience3.png')
+export const Backgroundpattern = require ('./Backgroundpattern.png')
+
+
 
 
 

@@ -6,6 +6,8 @@ import { Experience } from "../../assets";
 import { Experience1 } from "../../assets";
 import { Experience2 } from "../../assets";
 import { Experience3 } from "../../assets";
+import { Backgroundpattern } from "../../assets";
+
 
 
 const About = () => {
@@ -37,7 +39,7 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-1"></div> */}
         
         
-        <div className="row about-1">
+        <div className="row about-1 url">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">

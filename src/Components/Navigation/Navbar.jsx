@@ -2,12 +2,14 @@ import React from 'react'
 import './navbar.scss';
 import Logo from "../../assets/Kmg.png"
 
+
+
 const Navbar = () => {
     return (
         
-        <div className="row b-g-all fixed-top pt-3">
+        <div className="row b-g-all fixed-top pt-2">
                 <div class="col-sm-12 col-md-12 col-lg-1"></div>
-                <div class="col-sm-12 col-md-12 col-lg-10">
+                <div class="col-sm-12 col-md-12 col-lg-12">
         <div className='bg-all'>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">

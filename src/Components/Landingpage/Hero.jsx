@@ -1,22 +1,21 @@
     import React from 'react'
     import './hero.scss';
-    import { Heroimage } from "../../assets";
+    import { Heroimage, Backgroundpattern } from "../../assets";
     import { Heylogo } from "../../assets";
     import { FaLinkedin, FaBehance, FaGithub } from "react-icons/fa";
 
 const Hero = () => {
     return (
         <>
-        <div className=" body row">
+        <div className=" body row" style={{backgroundImage: `url(${Backgroundpattern})`}}>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-7">
-                    <div className='hey-session '>
+                    <div className='hey-session'>
                         <img src= {Heylogo} alt="" />
                         <div className='hero-text'>
                         <h1>I’m <span className='minename'>Moruf</span>, <br/> Product Designer</h1>
-                    </div>
                     </div>
                     <div className='hero-p'>
                         <p>A product designer with years of experience, currently <br/>
@@ -31,7 +30,7 @@ const Hero = () => {
                     <button className='hireme'>Hire me</button>
                     </div>
                     </div>
-                    
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5">
                     <div className='hero-image'>

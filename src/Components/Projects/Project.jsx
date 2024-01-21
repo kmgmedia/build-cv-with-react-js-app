@@ -1,9 +1,6 @@
 import React from 'react'
 import './project.scss';
-import { Macpckmgfolio } from '../../assets';
-import { Macnexcent } from '../../assets';
-import { mackbooksicklecell } from '../../assets';
-import { Phonesmarthom } from '../../assets';
+import { Macpckmgfolio, Macnexcent, mackbooksicklecell, Phonesmarthom } from '../../assets';
 import { Macbyc } from '../../assets';
 import { Phonepethome} from '../../assets';
 

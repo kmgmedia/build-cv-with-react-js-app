@@ -1,7 +1,6 @@
 import React from 'react'
 import './kmgfoliobigpage.scss';
-import { Macpckmgfoliobig } from '../../assets';
-import { Backgroundpatternherosession } from '../../assets';
+import { Macpckmgfoliobig, Backgroundpattern } from '../../assets';
 
 
 
@@ -11,7 +10,7 @@ const Kmgfoliobigpage = () => {
     return (
     <>
     
-    <div className="row about-big-1">
+    <div className="row about-big-1" style={{backgroundImage: `url(${Backgroundpattern})`}}>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="row">
