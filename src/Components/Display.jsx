@@ -26,10 +26,10 @@ import Footer from './Footer/Footer';
         {/* <Form/> */}
         {/* <Kmgfoliobigpage/> */}
         {/* <Nexcentfoliobigpage/> */}
-        <Sicklefolio/>
+        {/* <Sicklefolio/> */}
         {/* <Smarthomefolio/> */}
         {/* <Bycfolio/> */}
-        {/* <Pethomefolio/> */}
+        <Pethomefolio/>
         {/* <About/> */}
         <Footer/>
 

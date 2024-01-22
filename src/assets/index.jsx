@@ -18,13 +18,3 @@ export const Experience2 = require ('./Experience2.png')
 export const Experience3 = require ('./Experience3.png')
 export const Backgroundpattern = require ('./Backgroundpattern.png')
 
-
-
-
-
-
-
-
-
-
-
