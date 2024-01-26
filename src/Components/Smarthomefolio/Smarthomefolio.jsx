@@ -84,10 +84,10 @@ const Smarthomefolio = () => {
                         </div>
                         <p>
                         Improving the user experience (UX) in real estate starts
-                        with a comprehensive understanding of distinct user
-                        segments, including international buyers, sellers, and
-                        agents. This entails conducting thorough research to
-                        pinpoint their challenges and preferences. Subsequently,
+                        with a <br /> comprehensive understanding of distinct user
+                        segments, including <br /> international buyers, sellers, and
+                        agents. This entails conducting thorough <br /> research to
+                        pinpoint their challenges and preferences. Subsequently, <br />
                         implementing usability testing and continuously gathering
                         feedback is essential.</p>
                     </div>

@@ -21,16 +21,16 @@ import Footer from './Footer/Footer';
     return (
         <div>
         <Navbar/>
-        <Hero/>
-        <Projects/>
+        {/* <Hero/> */}
+        {/* <Projects/> */}
         {/* <Form/> */}
         {/* <Kmgfoliobigpage/> */}
         {/* <Nexcentfoliobigpage/> */}
         {/* <Sicklefolio/> */}
-        {/* <Smarthomefolio/> */}
+        <Smarthomefolio/>
         {/* <Bycfolio/> */}
         {/* <Pethomefolio/> */}
-        {/* <About/> */}
+        <About/>
         <Footer/>
 
         </div>
