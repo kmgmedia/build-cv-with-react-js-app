@@ -21,7 +21,7 @@ import Footer from './Footer/Footer';
     return (
         <div>
         <Navbar/>
-        {/* <Hero/> */}
+        <Hero/>
         {/* <Projects/> */}
         {/* <Form/> */}
         {/* <Kmgfoliobigpage/> */}

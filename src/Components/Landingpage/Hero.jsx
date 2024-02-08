@@ -1,10 +1,17 @@
     import React from 'react'
+    import { useEffect, useState } from "react";
     import './hero.scss';
     import { Heroimage, Backgroundpattern } from "../../assets";
     import { Heylogo } from "../../assets";
     import { FaLinkedin, FaBehance, FaGithub } from "react-icons/fa";
+    import Aos from "aos";
+    import 'aos/dist/aos.css'
 
 const Hero = () => {
+    const [toggle, setToggle] = useState(false);
+    useEffect(()=>{
+        Aos.init({duration:1500})
+    },[])
     return (
         <>
         <div className=" body row" style={{backgroundImage: `url(${Backgroundpattern})`}}>
@@ -13,11 +20,11 @@ const Hero = () => {
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-7">
                     <div className='hey-session'>
-                        <img src= {Heylogo} alt="" />
+                        <img data-aos='zoom-in-down'src= {Heylogo} alt="" />
                         <div className='hero-text'>
                         <h1>I’m <span className='minename'>Moruf</span>, <br/> Product Designer</h1>
                     </div>
-                    <div className='hero-p'>
+                    <div data-aos='zoom-in-down' className='hero-p'>
                         <p>A product designer with years of experience, currently <br/>
                         shaping in coding the future, building digital worlds products <br/>
                             within energetic and dynamic cross-functional settings.
@@ -33,7 +40,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5">
-                    <div className='hero-image'>
+                    <div data-aos='fade-down-left' className='hero-image'>
                         <img src= {Heroimage} alt="" />
                     </div>
                 </div>
