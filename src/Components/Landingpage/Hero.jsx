@@ -6,12 +6,17 @@
     import { FaLinkedin, FaBehance, FaGithub } from "react-icons/fa";
     import Aos from "aos";
     import 'aos/dist/aos.css'
+import { useLinkClickHandler } from 'react-router-dom';
 
 const Hero = () => {
     const [toggle, setToggle] = useState(false);
     useEffect(()=>{
         Aos.init({duration:1500})
     },[])
+
+    const clickHandler =
+    () => console.log('mouse over')
+
     return (
         <>
         <div className=" body row" style={{backgroundImage: `url(${Backgroundpattern})`}}>
@@ -33,7 +38,7 @@ const Hero = () => {
                     <div className="col-sm-12 col-md-12 col-lg-6">
                     <div className="st-btn">
                     <button className='portfolio'>Projects</button>
-                    <button className='hireme'>Hire me</button>
+                    <button onMouseOver={clickHandler} className='hireme'>Hire me</button>
                     </div>
                     </div>
                     </div>
