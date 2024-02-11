@@ -16,7 +16,9 @@ $primary-color: #F8991D;
 $secondery-color: #232057;
 $secondery-color-2: #272829;
 
-
+.row {
+    margin: 0 !important;
+    }
 
 .b-g-all {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0.20) 100%);
@@ -87,4 +89,54 @@ $secondery-color-2: #272829;
     gap: 10px;
 }
 
+
+@media screen and (max-width: 645px) {
+
+    .b-g-all {
+        height: 90px;
+    }
+
+
+    .navbar {
+        margin-left: 0rem;
+    }
+
+    .navbar-brand {
+        padding-right: 6rem;
+    }
+
+    .navbar-brand img {
+        width: 8rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .b-g-all {
+        width: 52%;
+        
+    }
+
+    .b-g-all {
+        height: 100px;
+    }
+
+    .navbar {
+        margin-left: 0rem;
+    }
+
+    // .navbar-brand {
+    //     padding-right: 26rem;
+    // }
+
+    .navbar-brand img {
+        width: 12rem;
+    }
+
+    .st-btn {
+        width: 30%;
+    }
+
+}
 

@@ -18,9 +18,6 @@ const Footer = () => {
                     products within energetic and dynamic cross-functional
                     settings.
                     </p>
-                    <p>
-                    Copyright© 2023 Moruf Adebola, All Rights reserved.
-                    </p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
 
@@ -42,6 +39,9 @@ const Footer = () => {
                     </div>
                     </div>
                     </div>
+                    <p>
+                    Copyright© 2023 Moruf Adebola, All Rights reserved.
+                    </p>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
                 </div>
                 </div>

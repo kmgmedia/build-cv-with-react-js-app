@@ -1,17 +1,18 @@
 import React from 'react'
 import './navbar.scss';
 import Logo from "../../assets/Kmg.png"
-
+import { FaBehance, } from "react-icons/fa";
 
 
 const Navbar = () => {
+
     return (
         
         <div className="row b-g-all fixed-top pt-2">
                 <div class="col-sm-12 col-md-12 col-lg-1"></div>
                 <div class="col-sm-12 col-md-12 col-lg-12">
         <div className='bg-all'>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
                     <a className="nav-link-h" href="#">Home <span className="sr-only"></span></a>
@@ -29,16 +30,17 @@ const Navbar = () => {
                     <a className="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-                </div>
+                </div> */}
+
+                
         <nav className="navbar navbar-expand-lg">
             <a className="navbar-brand" href="#"><img src={Logo} alt="" /></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+                <i className="navbar-toggler-icon" ></i>
                 </button>
-
                 <div class="col-sm-12 col-md-12 col-lg-6"></div>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav ml-auto">
+                <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
                     <li className="nav-item active">
                     <a className="nav-link home" href="#">Home <span className="sr-only"></span></a>
                     </li>

@@ -29,7 +29,7 @@ $secondery-color-2: #272829;
 .footers {
     background-color:#232057;
     color: #FFFFFF;
-    height: 348px;
+    height: 100%;
     padding: 55px 189px;
 }
 
@@ -47,4 +47,49 @@ $secondery-color-2: #272829;
 .bbtn1 {
     margin-right: 10px;
     
+}
+
+
+
+@media screen and (max-width: 645px) {
+
+    .footers {
+        padding: 0%;
+        font-size: 16px;
+    }
+
+    .line2 {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .footer-bold-text h3 {
+        padding-top: 2rem;
+    }
+
+    .footer-bold-text h5 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+
+    .footers {
+        padding: 0%;
+        font-size: 16px;
+    }
+
+    .line2 {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .footer-bold-text h5 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+
 }

@@ -14,6 +14,9 @@ $font-stack: Arial, Helvetica, sans-serif;
 $primary-color: #F8991D;
 $secondery-color: #232057;
 
+.row {
+    margin: 0 !important;
+    }
 
 .hey-session {
     padding-top: 15rem;
@@ -54,9 +57,9 @@ $secondery-color: #232057;
 }
 
 .st-btn {
-    border-radius: 30px;
+    border-radius: 35px;
     display: flex;
-    border: 2px solid rgba(35, 32, 87, 0.35);
+    border: 2px solid rgba(161, 157, 240, 0.35);
     background: #D6D6D6;
     height: 78px;
     padding: 30px 10px;
@@ -152,20 +155,119 @@ margin-bottom: 1rem;
 .icons-all p {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 18px;
 }
 
 .hireme:hover {
     background-color: $primary-color;
     width: 180px;
     color:#ffffff;
-    transition-duration: 1s;
+    transition-duration: 1ms;
 }
 
 .portfolio:hover {
     background-color: $primary-color;
     width: 180px;
     color:#ffffff;
-    transition-duration: 1s;
+    transition-duration: 1ms;
 }
 
+@media screen and (max-width: 645px) {
+
+
+    .hey-session {
+        width: 100%;
+        padding-top: 8rem;
+        
+    }
+
+    .hey-session img {
+        padding-left: 10rem;
+        width: 16rem;
+    }
+
+    .hero-image img {
+        padding-right: 0rem;
+        image-rendering: auto;
+    }
+
+    .hero-text h1 {
+        font-size: 34px;
+        font-weight: 800;
+    }
+
+    .hero-p br {
+        display: none;
+    }
+
+    .hero-p {
+        font-size: 14px;
+        padding-top: 0rem;
+    }
+
+    .hero-image img {
+        width: 21rem;
+        padding-top: 18%;
+        padding-bottom: 4rem;
+    }
+
+    .st-btn {
+        height: 68px;
+    }
+
+    .portfolio, .hireme{
+        font-size: 16px;
+        padding: 14px, 23px
+    }
+
+    .hireme {
+        margin-right: 8px;
+    }
+
+    .portfolio, .hireme {
+        width: 180px;
+    }
+
+    .hero-image-text br {
+        display: none;
+    }
+
+    .hero-image-text {
+        font-size: 16px;
+        width: 348px;
+        padding-top: 2rem;
+    }
+
+    .boldpart-2 {
+        margin-top: 1rem;
+    }
+
+    .boldpart-1, .boldpart-2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 650px) and (max-width: 990px) {
+
+    .hey-session {
+        width: 200%;
+        padding-top: 10rem;
+        
+    }
+
+    .hero-image img {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .hero-image-text br {
+        display: none;
+    }
+
+    .hero-image-text {
+        width: 45rem;
+    }
+
+
+}
