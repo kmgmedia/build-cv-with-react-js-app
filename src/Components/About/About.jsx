@@ -15,7 +15,7 @@ const About = () => {
 
         <>
         
-        <div id= "about" className="row about-1 url">
+        <div className="row about-1 url" style={{backgroundImage: `url(${Backgroundpattern})`}}>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
@@ -33,8 +33,6 @@ const About = () => {
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-
         <div className="row pt-5">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
@@ -116,6 +114,9 @@ const About = () => {
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
+        </div>
+
+        
         
 
 

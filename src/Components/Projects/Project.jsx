@@ -67,10 +67,10 @@ const Project = () => {
         </div>
         
         
-        <div className="row project-1">
+        <div className="row project-1 reverse">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-8">
-            <div data-aos='fade-up' class="row">
+            <div data-aos='fade-up'  class="row reverse">
             <div class="col-sm-12 col-md-12 col-lg-5">
                 <div className='kmg-folio-text-1'>
                     <h5>
@@ -94,9 +94,7 @@ const Project = () => {
             <img src= {Macnexcent} alt="" />
             </div>
             </div>
-            
             </div>
-            
         </div>
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         </div>
@@ -136,7 +134,7 @@ const Project = () => {
         <div className="row project-1">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-8">
-            <div data-aos='fade-up' class="row">
+            <div data-aos='fade-up' class="row reverse">
             <div class="col-sm-12 col-md-12 col-lg-5">
                 <div className='kmg-folio-text-1 pt-5'>
                     <h5>
@@ -203,11 +201,11 @@ const Project = () => {
         <div className="row project-1">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-8">
-            <div data-aos='fade-up' class="row">
+            <div data-aos='fade-up' class="row reverse">
             <div class="col-sm-12 col-md-12 col-lg-5">
                 <div className='kmg-folio-text-1 pt-5'>
                     <h5>
-                    Smart Home Real Estate
+                    PetHome
                     </h5>
                 </div>
                 <div className='kmg-folio-text-2 '>
