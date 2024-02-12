@@ -1,7 +1,7 @@
     import React from 'react'
     import { useEffect, useState } from "react";
     import './hero.scss';
-    import { Heroimage, Backgroundpattern } from "../../assets";
+    import {Heroimage, Backgroundpattern, Rectangle1029, Ellipse1104, Ellipse1105, Ellipse1106} from "../../assets";
     import { Heylogo } from "../../assets";
     import { FaLinkedin, FaBehance, FaGithub } from "react-icons/fa";
     import Aos from "aos";
@@ -48,6 +48,15 @@ const Hero = () => {
                         <img src= {Heroimage} alt="" />
                     </div>
                 </div>
+                <div className="col-sm-12 col-md-12 col-lg-5">
+                <div className='all-ellipse'>
+                    {/* <img src={Rectangle1029} alt="" /> */}
+                    <img src={Ellipse1106} alt="" />
+                    <img src={Ellipse1104} alt="" />
+                    <img src={Ellipse1105} alt="" />
+                </div>
+                </div>
+                
             </div>
         </div>
         </div>

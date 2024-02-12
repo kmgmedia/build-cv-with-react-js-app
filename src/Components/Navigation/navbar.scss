@@ -83,7 +83,7 @@ $secondery-color-2: #272829;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-style: normal;
-    width: 150px;
+    width: 170px;
     padding: 17px 40px;
     align-items: center;
     gap: 10px;
@@ -93,7 +93,7 @@ $secondery-color-2: #272829;
 @media screen and (max-width: 645px) {
 
     .b-g-all {
-        height: 90px;
+        height: 80px;
     }
 
 
@@ -115,9 +115,9 @@ $secondery-color-2: #272829;
 
     .b-g-all {
         width: 52%;
-        
     }
 
+    
     .b-g-all {
         height: 100px;
     }
@@ -140,15 +140,19 @@ $secondery-color-2: #272829;
 
 }
 
-@media (min-width: 800px) {
+@media (min-width: 820px) {
 
-    .navbar {
-        width: 20%;
-        
+    .b-g-all {
+        width: 100%;
     }
-
-
-
-
 }
 
+// @media (min-width: 1280px) {
+
+//     .navbar {
+//         margin-left: 1rem;
+//     }
+
+
+
+// }
