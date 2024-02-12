@@ -17,21 +17,22 @@ import Footer from './Footer/Footer';
 
 
 
+
     const Display = () => {
     return (
         <div>
-        <Navbar/>
-        <Hero/>
-        <Projects/>
-        {/* <Form/> */}
-        {/* <Kmgfoliobigpage/> */}
-        {/* <Nexcentfoliobigpage/> */}
-        {/* <Sicklefolio/> */}
-        {/* <Smarthomefolio/> */}
-        {/* <Bycfolio/> */}
-        {/* <Pethomefolio/> */}
-        {/* <About/> */}
-        <Footer/>
+            <Navbar/>
+            <Hero/>
+            <Projects/>
+            {/* <Form/> */}
+            {/* <Kmgfoliobigpage/> */}
+            {/* <Nexcentfoliobigpage/> */}
+            {/* <Sicklefolio/> */}
+            {/* <Smarthomefolio/> */}
+            {/* <Bycfolio/> */}
+            {/* <Pethomefolio/> */}
+            <About/>
+            <Footer/>
 
         </div>
     )

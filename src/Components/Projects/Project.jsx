@@ -3,6 +3,8 @@ import './project.scss';
 import { Macpckmgfolio, Macnexcent, mackbooksicklecell, Phonesmarthom } from '../../assets';
 import { Macbyc } from '../../assets';
 import { Phonepethome} from '../../assets';
+// import Aos from "aos";
+// import 'aos/dist/aos.css'
 
 
 const Project = () => {
@@ -16,7 +18,7 @@ const Project = () => {
             <div className='projectme'>
             <h4>PROJECTS</h4>
             <span className="line"></span>
-            <div>
+            <div data-aos='zoom-in' >
                 <p>
                 Diverse works, personal & client projects showcased. 
                 Dive into detailed case studies revealing <br /> creative processes, 
@@ -31,7 +33,7 @@ const Project = () => {
 
 {/* PROJECT SESSION  */}
 
-        <div className="row project-1">
+        <div data-aos='fade-up' className="row project-1">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-8">
             <div class="row">
@@ -68,7 +70,7 @@ const Project = () => {
         <div className="row project-1">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-8">
-            <div class="row">
+            <div data-aos='fade-up' class="row">
             <div class="col-sm-12 col-md-12 col-lg-5">
                 <div className='kmg-folio-text-1'>
                     <h5>
@@ -102,7 +104,7 @@ const Project = () => {
         <div className="row project-1">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-8">
-            <div class="row">
+            <div data-aos='fade-up' class="row">
             <div class="col-sm-12 col-md-12 col-lg-7">
             <div className='kmg-folio-img'>
             <img src= {mackbooksicklecell} alt="" />
@@ -134,7 +136,7 @@ const Project = () => {
         <div className="row project-1">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-8">
-            <div class="row">
+            <div data-aos='fade-up' class="row">
             <div class="col-sm-12 col-md-12 col-lg-5">
                 <div className='kmg-folio-text-1 pt-5'>
                     <h5>
@@ -167,7 +169,7 @@ const Project = () => {
         <div className="row project-1">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-8">
-            <div class="row">
+            <div data-aos='fade-up' class="row">
             <div class="col-sm-12 col-md-12 col-lg-7">
             <div className='kmg-folio-img'>
             <img src= {Macbyc} alt="" />
@@ -201,7 +203,7 @@ const Project = () => {
         <div className="row project-1">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-8">
-            <div class="row">
+            <div data-aos='fade-up' class="row">
             <div class="col-sm-12 col-md-12 col-lg-5">
                 <div className='kmg-folio-text-1 pt-5'>
                     <h5>

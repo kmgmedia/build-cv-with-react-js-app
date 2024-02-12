@@ -58,9 +58,6 @@ const About = () => {
                 <p>I’m open to <span className='more-bold-body'>Job</span> opportunities where i can contribute, learn and grow. <br />
                 If you have any opportunity that matches my skills and experience, <br /> then don’t hesitate to <span className='more-bold-body'>contact me.</span></p>
             </div>
-            <div className='conta'>
-                <button className='conta-1'>CONTACT</button>
-            </div>
             </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-5">
@@ -112,6 +109,9 @@ const About = () => {
             </div>
             </div>
             </div>
+            </div>
+            <div className='conta'>
+                <button className='conta-1'>CONTACT</button>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>

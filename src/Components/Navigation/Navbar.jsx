@@ -4,9 +4,12 @@ import Logo from "../../assets/Kmg.png"
 import { FaBehance, } from "react-icons/fa";
 
 
+
 const Navbar = () => {
 
     return (
+
+        <>
         
         <div className="row b-g-all fixed-top pt-2">
                 <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -42,6 +45,12 @@ const Navbar = () => {
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
+        
+        
+        
+        
+        </>
+        
         
     )
 }
