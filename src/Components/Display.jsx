@@ -31,7 +31,7 @@ import Footer from './Footer/Footer';
             {/* <Smarthomefolio/> */}
             {/* <Bycfolio/> */}
             {/* <Pethomefolio/> */}
-            <About/>
+            {/* <About/> */}
             <Footer/>
 
         </div>

@@ -58,7 +58,6 @@ const Hero = () => {
                     <img src={Ellipse1105} alt="" />
                 </div>
                 </div>
-                
             </div>
         </div>
         </div>
