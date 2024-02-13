@@ -23,7 +23,7 @@ const About = () => {
             <div className='aboutme'>
             <h4>ABOUT ME</h4>
             <span className="line"></span>
-            <div>
+            <div data-aos='zoom-in'>
                 <p>
                 Here you will find more information about me, what i do, and my current <br />
                 skills mostly in terms of design and Technology.</p>
@@ -38,7 +38,7 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-7">
-            <div className='get-to-know-me'>
+            <div data-aos='fade-right' className='get-to-know-me'>
             <h5>Get to know me!</h5>
             <div>
                 <p>
@@ -59,7 +59,7 @@ const About = () => {
             </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-5">
-            <div className='get-to-know-me'>
+            <div data-aos='fade-left' className='get-to-know-me'>
             <h5>My Skills</h5>
             <div className='skills-list'>
                 <p className='skills-list-1'>Figma</p>
@@ -79,7 +79,7 @@ const About = () => {
             </div>
             </div>
 
-            <div className='get-to-know-me'>
+            <div data-aos='fade-left' className='get-to-know-me'>
             <h5>Other Skills</h5>
             <div className='skills-list'>
                 <p className='skills-list-1'>JavaScript</p>
@@ -108,18 +108,13 @@ const About = () => {
             </div>
             </div>
             </div>
-            <div className='conta'>
+            <div data-aos='fade-right' className='conta'>
                 <button className='conta-1'>CONTACT</button>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
         </div>
-
-        
-        
-
-
 
 
         <div className="row about-1">
@@ -142,7 +137,7 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">
-            <div className='idclngname'>
+            <div data-aos='fade-right' className='idclngname'>
             <h4>IDCLng</h4>
             <div>
                 <p>
@@ -157,7 +152,7 @@ const About = () => {
             </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
-            <div className='Year-of-work'>
+            <div data-aos='fade-left' className='Year-of-work'>
             <h5>2023/2024</h5>
             <div>
                 <p>
@@ -179,7 +174,7 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">
-            <div className='idclngname'>
+            <div data-aos='fade-right' data-aos-delay="300" className='idclngname'>
             <h4>United States Of Africa</h4>
             <div>
                 <p>
@@ -193,7 +188,7 @@ const About = () => {
             </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
-            <div className='Year-of-work'>
+            <div data-aos='fade-left' data-aos-delay="300" className='Year-of-work'>
             <h5>2022/2023</h5>
             <div>
                 <p>
@@ -214,7 +209,7 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">
-            <div className='idclngname'>
+            <div data-aos='fade-right' data-aos-delay="300" className='idclngname'>
             <h4>KmgMedia</h4>
             <div>
                 <p>
@@ -229,7 +224,7 @@ const About = () => {
             </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
-            <div className='Year-of-work'>
+            <div data-aos='fade-left' data-aos-delay="300" className='Year-of-work'>
             <h5>2019/2024</h5>
             <div>
                 <p>
@@ -253,7 +248,7 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row gbengus12">
             <div class="col-sm-12 col-md-12 col-lg-4">
-            <div className='idclngname'>
+            <div data-aos='fade-right' data-aos-delay="300" className='idclngname'>
             <h4>Gbengus Production</h4>
             <div>
                 <p>
@@ -267,7 +262,7 @@ const About = () => {
             </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
-            <div className='Year-of-work'>
+            <div data-aos='fade-left' data-aos-delay="300" className='Year-of-work'>
             <h5>2009/2012</h5>
             <div>
                 <p>

@@ -19,7 +19,7 @@ $secondery-color: #232057;
     }
 
 .hey-session {
-    padding-top: 15rem;
+    padding-top: 13rem;
 }
 
 .hey-session img {
@@ -30,7 +30,7 @@ $secondery-color: #232057;
 .hero-text h1 {
     color: $secondery-color;
     font-family: $font-stack;
-    font-size: 70px;
+    font-size: 65px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -181,6 +181,10 @@ margin-bottom: 1rem;
 
 @media screen and (min-width: 320px) and (max-width: 645px) {
 
+
+    .hero-text h1 br {
+        display: none;
+    }
 
     .hey-session {
         width: 100%;

@@ -1,7 +1,7 @@
 import React from 'react'
 import './navbar.scss';
 import Logo from "../../assets/Kmg.png"
-// import { FaBehance, } from "react-icons/fa";
+import { FaBehance, } from "react-icons/fa";
 
 
 

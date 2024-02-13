@@ -13,7 +13,7 @@
 const Hero = () => {
     const [toggle, setToggle] = useState(false);
     useEffect(()=>{
-        Aos.init({duration:1000, easing: "linear"})
+        Aos.init({duration:1000, delay:500, easing: "linear"})
     },[])
 
     const clickHandler =
@@ -29,7 +29,7 @@ const Hero = () => {
                     <div className='hey-session'>
                         <img data-aos='zoom-in-down'src= {Heylogo} alt="" />
                         <div className='hero-text'>
-                        <h1>I’m <span className='minename'>Moruf</span>, <br/> Product Designer</h1>
+                        <h1>I’m <span className='minename'>Moruf</span>, <br/> Product Designer / <br /> Full-Stack Developer</h1>
                     </div>
                     <div data-aos= "zoom-in" className='hero-p'>
                         <p>A product designer with years of experience, currently <br/>
