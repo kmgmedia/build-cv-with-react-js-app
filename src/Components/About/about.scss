@@ -214,11 +214,40 @@ line-height: normal;
 
 @media screen and (max-width: 645px) {
 
-    .project-1 {
-        padding-top: 1rem;
+    .aboutme h4, .experience h4 {
+        font-size: 28px;
     }
 
+    .aboutme p br {
+        display: none;
+    }
 
+    .aboutme p {
+        font-size: 16px;
+    }
 
+    .get-to-know-me br {
+        display: none;
+    }
+
+    .skills-list {
+        display: grid;
+    }
+
+    .conta-1 {
+        margin-bottom: 1rem;
+    }
+
+    .idclngname p br, .Year-of-work p br {
+        display: none;
+    }
+
+    .idclngname p, .Year-of-work p {
+        font-size: 16px;
+    }
+
+    .Experience {
+        margin-left:  0rem;
+    }
 
 }
