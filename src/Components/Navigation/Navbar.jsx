@@ -1,7 +1,10 @@
 import React from 'react'
+import { useState } from "react";
 import './navbar.scss';
 import Logo from "../../assets/Kmg.png"
 import { FaBehance, } from "react-icons/fa";
+
+
 
 
 
