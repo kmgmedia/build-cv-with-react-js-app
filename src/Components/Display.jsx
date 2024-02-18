@@ -23,7 +23,7 @@ import Footer from './Footer/Footer';
         <div>
             <Navbar/>
             <Hero/>
-            <Projects/>
+            {/* <Projects/> */}
             {/* <Form/> */}
             {/* <Kmgfoliobigpage/> */}
             {/* <Nexcentfoliobigpage/> */}
@@ -31,7 +31,7 @@ import Footer from './Footer/Footer';
             {/* <Smarthomefolio/> */}
             {/* <Bycfolio/> */}
             {/* <Pethomefolio/> */}
-            {/* <About/> */}
+            <About/>
             <Footer/>
 
         </div>

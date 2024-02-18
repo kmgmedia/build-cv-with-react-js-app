@@ -117,7 +117,7 @@ const About = () => {
         </div>
 
 
-        <div className="row about-1">
+        {/* <div className="row about-1">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
@@ -130,9 +130,9 @@ const About = () => {
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
+        </div> */}
 
-        <div className="row pt-5">
+        {/* <div className="row pt-5">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
@@ -166,10 +166,10 @@ const About = () => {
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        </div>
+        </div> */}
 
 
-        <div className="row">
+        {/* <div className="row">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
@@ -202,9 +202,9 @@ const About = () => {
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        </div>
+        </div> */}
 
-        <div className="row">
+        {/* <div className="row">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
@@ -241,9 +241,9 @@ const About = () => {
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        </div>
+        </div> */}
 
-        <div className="row">
+        {/* <div className="row">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row gbengus12">
@@ -327,7 +327,7 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         </div>
 
-        </div>
+        </div> */}
 
         </>
     )

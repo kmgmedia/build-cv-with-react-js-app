@@ -212,71 +212,75 @@ line-height: normal;
     padding-top: 1rem;
 }
 
-// @media screen and (max-width: 645px) {
+@media screen and (max-width: 645px) {
 
-//     .get-to-know-me h5 {
-//         font-size: 22px;
-//     }
+    .get-to-know-me h5 {
+        font-size: 22px;
+    }
 
-//     .aboutme h4, .experience h4 {
-//         font-size: 28px;
-//     }
+    .aboutme h4, .experience h4 {
+        font-size: 24px;
+    }
 
-//     .aboutme p br {
-//         display: none;
-//     }
+    .aboutme p br {
+        display: none;
+    }
 
-//     .aboutme p {
-//         font-size: 14px;
-//     }
+    .aboutme p {
+        font-size: 13px;
+    }
 
-//     .get-to-know-me p br {
-//         display: none;
-//     }
+    .get-to-know-me p br {
+        display: none;
+    }
 
-//     .get-to-know-me p {
-//         font-size: 14px;
-//     }
+    .get-to-know-me p {
+        font-size: 13px;
+    }
 
-//     .skills-list {
-//         display: grid;
-//     }
+    .skills-list {
+        display: grid;
+    }
 
-//     .conta-1 {
-//         margin-bottom: 1rem;
-//         width: 160px;
-//     }
+    .skills-list {
+        font-size: 13px;
+    }
 
-//     .idclngname p br {
-//         display: none;
-//     }
+    .conta-1 {
+        margin-bottom: 2rem;
+        width: 140px;
+    }
 
-//     .Year-of-work p br {
-//         display: none;
-//     }
+    .idclngname p br {
+        display: none;
+    }
 
-//     .idclngname p {
-//         font-size: 14px;
-//     }
+    .Year-of-work p br {
+        display: none;
+    }
 
-//     .Year-of-work p {
-//         font-size: 14px;
-//     }
+    .idclngname p {
+        font-size: 14px;
+    }
 
-//     .Year-of-work h5 {
-//         font-size: 20px;
-//     }
+    .Year-of-work p {
+        font-size: 14px;
+    }
 
-//     .Experience {
-//         margin-left:  0rem;
-//         width: 0rem;
-//     }
+    .Year-of-work h5 {
+        font-size: 20px;
+    }
 
-//     .idclngname h4 {
-//         font-size: 25px;
-//     }
+    .Experience {
+        margin-left:  0rem;
+        width: 0rem;
+    }
+
+    .idclngname h4 {
+        font-size: 25px;
+    }
 
 
 
 
-// }
+}
