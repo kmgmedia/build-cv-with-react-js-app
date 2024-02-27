@@ -24,14 +24,14 @@ import Footer from './Footer/Footer';
             <Navbar/>
             <Hero/>
             {/* <Projects/> */}
-            {/* <Form/> */}
+            <Form/>
             {/* <Kmgfoliobigpage/> */}
             {/* <Nexcentfoliobigpage/> */}
             {/* <Sicklefolio/> */}
             {/* <Smarthomefolio/> */}
             {/* <Bycfolio/> */}
             {/* <Pethomefolio/> */}
-            <About/>
+            {/* <About/> */}
             <Footer/>
 
         </div>

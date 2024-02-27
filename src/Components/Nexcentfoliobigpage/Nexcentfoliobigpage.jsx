@@ -2,8 +2,13 @@ import React from 'react'
 import './nexcentfoliobigpage.scss';
 import { Macnexcentbig, Backgroundpattern } from '../../assets';
 
+
+
 const Nexcentfoliobigpage = () => {
+
+
   return (
+    
     <>
 
 <div className="row about-big-1" style={{backgroundImage: `url(${Backgroundpattern})`}}>

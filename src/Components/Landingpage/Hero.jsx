@@ -29,7 +29,9 @@ const Hero = () => {
                     <div className='hey-session'>
                         <img data-aos='zoom-in-down'src= {Heylogo} alt="" />
                         <div className='hero-text'>
-                        <h1>I’m <span className='minename'>Moruf</span>, <br/> Product Designer / <br /> Full-Stack Developer</h1>
+                        <h1>I’m <span className='minename b1 '>Moruf</span>
+                        <span className='minename b2'>Adebola,</span> <br/>
+                        Product Designer</h1>
                     </div>
                     <div data-aos= "zoom-in" className='hero-p'>
                         <p>A product designer with years of experience, currently <br/>
@@ -62,8 +64,6 @@ const Hero = () => {
         </div>
         </div>
         <div className="col-sm-12 col-md-12 col-lg-1"></div>
-
-
 
 
         <div className="row all-this-site">
