@@ -3,8 +3,9 @@
     import './hero.scss';
     import {Heroimage, Backgroundpattern, Rectangle1029, Ellipse1104, Ellipse1105, Ellipse1106} from "../../assets";
     import { Heylogo } from "../../assets";
-    import { FaLinkedin, FaBehance, FaGithub } from "react-icons/fa";
-    
+    import { FaLinkedin, FaBehance, FaGithub, FaArrowUp, FaArrowAltCircleUp, } from "react-icons/fa";
+    import { ArrowTop, FaceIcon, } from '@radix-ui/react-icons';
+
     // aos animation library
     
     import Aos from "aos";

@@ -33,9 +33,9 @@ const Footer = () => {
                     <div>
                     <h5>Social</h5>
                     <div className='all-social-icons'>
-                    <p><span className='bbtn1'><FaLinkedin/></span>LinkedIn</p>
-                    <p><span className='bbtn1'><FaBehance/></span>Behance</p>
-                    <p><span className='bbtn1'><FaGithub/></span>GitHub</p>
+                    <p><span className='bbtn1'><FaLinkedin size={25}/></span>LinkedIn</p>
+                    <p><span className='bbtn1'><FaBehance size={25}/></span>Behance</p>
+                    <p><span className='bbtn1'><FaGithub size={25}/></span>GitHub</p>
                     </div>
                     </div>
                     </div>

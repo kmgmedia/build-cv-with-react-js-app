@@ -26,12 +26,12 @@ const Form = () => {
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        <div className="row pt-5">
+        <div className="row pt-5 for-bottom">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
-            <div class="row bg-primary">
+            <div class="row hold-background">
             <div class="col-sm-12 col-md-12 col-lg-6">
-            <div data-aos='fade-right' className='get-to-know-me'>
+            <div data-aos='fade-right' className='get-to-know-me get-well'>
             <h5>Get in touch</h5>
             <div><i class="fa-solid fa-square-phone"></i>
                 <p>
@@ -46,47 +46,49 @@ const Form = () => {
                 <h4><FaPhoneSquareAlt/>+234 915 096 2867</h4>
               </div>
               <div className='email-envelop'>
-                <h4><FaEnvelopeSquare/>morufbadebola@gmail.com</h4>
+                <h4><FaEnvelopeSquare size={40} />morufbadebola@gmail.com</h4>
               </div>
               </section>
             </div>
             </div>
 
+
+{/* Form Session */}
+
+               {/* Name input */}
             <div class="col-sm-12 col-md-12 col-lg-5">
             <div data-aos='fade-left' className='get-to-know-me'>
             <h5>Send me a message</h5>
-
             <section className='form-body'>
-              <form action="">
-
-                <label htmlFor="FirstName">First Name</label>
-                <div>
-                <input id="FirstName" type="text" name="firstName" />
+              <form action="width: 26rem">
+                <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="form-1">Name</label>
+                    <input type="text" id="form-1" class="form-control" placeholder='Enter Your Name'/>
                 </div>
 
-                <label htmlFor="email">Email</label>
-                <div>
-                <input id="email" type="email" name="email" />
+                {/* Email input */}
+                <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="form-2">Email</label>
+                    <input type="text" id="form-2" class="form-control" placeholder='Enter Your Email'/>
                 </div>
 
-                <label htmlFor="yourMessage">Your Message</label>
-                <textarea name="" id="yourMessage"></textarea>
-                
+                {/* Message input */}
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="form-3">Message</label>
+                    <textarea class="form-control" id="form-3" rows="4" placeholder='Enter Your Message'></textarea>
+                </div>
+                <button data-init type="button" class="btn btn-send btn-block mb-4">Send</button>
               </form>
-
-              <input type="submit" value="Submit"/>
-
             </section>
             
             </div>
-            </div>
-            </div>
+          </div>
         </div>
+      </div>
         <div className="col-sm-12 col-md-12 col-lg-2"></div>
-        </div>
-        </div>
+      </div>
+    </div>
 
-        
         </>
     )
     }

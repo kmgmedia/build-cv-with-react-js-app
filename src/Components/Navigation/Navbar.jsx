@@ -7,7 +7,6 @@ import { FaBehance, } from "react-icons/fa";
 
 
 
-
 const Navbar = () => {
 
     return (
@@ -19,7 +18,7 @@ const Navbar = () => {
                 <div class="col-sm-12 col-md-12 col-lg-12">
         <div className='bg-all'>
         <nav className="navbar navbar-expand-lg">
-            <a className="navbar-brand" href="#"><img src={Logo} alt="" /></a>
+            <a className="navbar-brand" href="#"><img src={Logo} alt=""/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon" ></span>
                 </button>

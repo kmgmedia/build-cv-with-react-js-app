@@ -16,25 +16,35 @@ import Footer from './Footer/Footer';
 
 
 
-
-
     const Display = () => {
     return (
+
         <div>
             <Navbar/>
             <Hero/>
-            {/* <Projects/> */}
-            <Form/>
-            {/* <Kmgfoliobigpage/> */}
-            {/* <Nexcentfoliobigpage/> */}
-            {/* <Sicklefolio/> */}
-            {/* <Smarthomefolio/> */}
-            {/* <Bycfolio/> */}
-            {/* <Pethomefolio/> */}
-            {/* <About/> */}
+            <Projects/>
             <Footer/>
-
         </div>
+        
+
+        // <React.Fragment>
+        //     <BrowserRouter>
+        //     <Navbar/>
+        //     <Hero/>
+        //     <Projects/>
+        //     <Form/>
+        //     <Footer/>
+        //     <Routes>
+        //     <Route path='Kmgfoliobigpage' element={<Kmgfoliobigpage/> } />
+        //     <Route path='Kmgfoliobigpage' element={<Nexcentfoliobigpage/> } />
+        //     <Route path='Sicklefolio'element={<Sicklefolio/> } />
+        //     <Route path='Smarthomefolio' element={<Smarthomefolio/> } />
+        //     <Route path='Bycfolio' element={<Bycfolio/> } />
+        //     <Route path='Pethomefolio' element={<Pethomefolio/> } />
+        //     <Route path='About' element={<About/> } />
+        //     </Routes>
+        //     </BrowserRouter>
+        // </React.Fragment>
     )
 }
 
