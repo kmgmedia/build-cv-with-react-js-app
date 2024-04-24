@@ -42,11 +42,11 @@ const Form = () => {
                 If you have any opportunity that matches my skills and experience, <br /> then don’t hesitate to <span className='more-bold-body'>contact me.</span></p> */}
             </div>
               <section>
-                <div className='call-number'>
-                <h4><FaPhoneSquareAlt/>+234 915 096 2867</h4>
+                <div className='call-number pt-4'>
+                <h4><FaPhoneSquareAlt size={30}/>+234 915 096 2867</h4>
               </div>
               <div className='email-envelop'>
-                <h4><FaEnvelopeSquare size={40} />morufbadebola@gmail.com</h4>
+                <h4><FaEnvelopeSquare size={30}/>morufbadebola@gmail.com</h4>
               </div>
               </section>
             </div>

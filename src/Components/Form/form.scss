@@ -18,8 +18,8 @@ $secondery-color-2: #272829;
     padding-bottom: 3rem;
     padding-top: 3rem;
     border-radius: 20px;
-    border: 2px solid rgba(248, 153, 29, 0.60);
-    background: linear-gradient(180deg, rgba(248, 153, 29, 0.60) 0%, rgba(248, 153, 29, 0.35) 100%);
+    border: 2px solid #f8991d99;
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0.6) 0%, #d3d3d359 100%);
 }
 
 .get-well {
@@ -28,10 +28,57 @@ $secondery-color-2: #272829;
 
 .btn-send {
     background-color: $primary-color !important;
-    padding: 5px 32px !important;
-    margin-left: 22rem;
+    padding: 6px 55px !important;
+    margin-left: 19rem;
+    margin-top: 1rem;
     font-size: 22px  !important;
     font-family: Arial, Helvetica, sans-serif !important;
     font-weight: 600 !important;
     color: $secondery-color !important;
+}
+
+
+.call-number {
+    padding-top: 5rem;
+}
+
+.email-envelop h4 {
+    font-size: 20px;
+    padding-bottom: 3rem;
+}
+
+
+@media screen and (max-width: 992px) {
+
+
+    .hold-background {
+        width: 95%;
+    }
+
+    .get-well {
+        padding-left: 0rem;
+    }
+
+    .btn-send {
+        margin-left: 0rem;
+    }
+
+    .get-to-know-me h5 {
+        padding-top: 0rem;
+    }
+
+    .aboutme h4 {
+        padding-top: 2rem;
+    }
+
+    
+
+
+
+
+
+
+
+
+
 }
