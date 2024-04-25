@@ -23,7 +23,7 @@ import Footer from './Footer/Footer';
             <Navbar/>
             <Hero/>
             <Projects/>
-            {/* <Form/> */}
+            <Form/>
             <Footer/>
         </div>
         

@@ -52,8 +52,9 @@ $secondery-color-2: #272829;
 
 
     .hold-background {
-        width: 95%;
+        width: 97%;
     }
+
 
     .get-well {
         padding-left: 0rem;
@@ -71,9 +72,22 @@ $secondery-color-2: #272829;
         padding-top: 2rem;
     }
 
-    
+    .aboutme p br {
+        display: none;
+    }
 
+    .aboutme p {
+        font-size: 13px;
+    }
 
+    .email-envelop h4, .call-number h4 {
+        font-size: 18px;
+        padding-bottom: 1rem;
+    }
+
+    .get-to-know-me h5 {
+        padding-top: 2rem;
+    }
 
 
 
