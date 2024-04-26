@@ -23,5 +23,3 @@ export const Ellipse1104 = require ('./Ellipse1104.png')
 export const Rectangle1029 = require ('./Rectangle1029.png')
 
 
-
-

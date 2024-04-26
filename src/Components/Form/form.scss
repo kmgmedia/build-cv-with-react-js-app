@@ -26,6 +26,30 @@ $secondery-color-2: #272829;
     padding-left: 5rem;
 }
 
+
+.aboutmecont h4 {
+    font-family: $font-stack;
+    color: $secondery-color;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.aboutmecont p {
+    color: $secondery-color-2;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 35px;
+}
+
+
 .btn-send {
     background-color: $primary-color !important;
     padding: 6px 55px !important;
@@ -65,7 +89,7 @@ $secondery-color-2: #272829;
     }
 
     .aboutme h4 {
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
 
     .aboutme p br {

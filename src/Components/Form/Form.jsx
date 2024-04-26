@@ -5,15 +5,22 @@ import { FaPhoneSquareAlt, FaEnvelopeSquare } from "react-icons/fa";
 
 
 const Form = () => {
+  const handleSend = (event) => {
+    event.preventDefault();
+          console.log('Sent');
+  }
+
+
     return (
         <>
-
-<div className="row about-1 url" style={{backgroundImage: `url(${Backgroundpattern})`}}>
+        <form onSunmit={handleSend}>
+          
+        <div className="row about-1 url" style={{backgroundImage: `url(${Backgroundpattern})`}}>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-            <div className='aboutme'>
+            <div className='aboutmecont'>
             <h4>CONTACT</h4>
             <span className="line"></span>
             <div data-aos='zoom-in'>
@@ -77,7 +84,7 @@ const Form = () => {
                     <label class="form-label" for="form-3">Message</label>
                     <textarea class="form-control" id="form-3" rows="4" placeholder='Enter Your Message'></textarea>
                 </div>
-                <button data-init type="button" class="btn btn-send btn-block mb-4">Send</button>
+                <button className="btn btn-send"type='send'>Send</button>
               </form>
             </section>
             
@@ -88,6 +95,9 @@ const Form = () => {
         <div className="col-sm-12 col-md-12 col-lg-2"></div>
       </div>
     </div>
+        </form>
+
+
 
         </>
     )

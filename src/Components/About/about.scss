@@ -51,8 +51,9 @@ line-height: normal;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-top: 7rem;
+    padding-top: 10rem;
 }
+
 
 .aboutme p {
     color: $secondery-color-2;
@@ -160,7 +161,7 @@ line-height: normal;
 }
 
 .idclngname h4 {
-    color: $secondery-color-2;
+    color: $secondery-color;
 font-family: $font-stack;
 font-size: 29px;
 font-style: normal;
@@ -189,6 +190,7 @@ font-weight: 700;
 line-height: normal;
 padding-bottom: 1px;
 padding-top: 30px;
+text-align: right;
 }
 
 .Year-of-work p {
@@ -198,12 +200,12 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+text-align: right;
 }
 
 .gbengus12 {
     padding-bottom: 8rem;
 }
-
 
 .Experience {
     
@@ -211,6 +213,10 @@ line-height: normal;
     margin-left: 4rem;
     padding-top: 1rem;
 }
+
+
+
+
 
 @media screen and (max-width: 645px) {
 

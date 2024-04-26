@@ -3,26 +3,26 @@ import './project.scss';
 import { Macpckmgfolio, Macnexcent, mackbooksicklecell, Phonesmarthom } from '../../assets';
 import { Macbyc } from '../../assets';
 import { Phonepethome } from '../../assets';
-// import Aos from "aos";
-// import 'aos/dist/aos.css'
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 
 
 // Event handler Property 
 const handleClick = (event) => console.log(event);
 
-{/* <script>
-    const kmg-folio-btn = document.querySelector(".kmg-folio-btn");
+// {/* <script>
+//     const kmg-folio-btn = document.querySelector(".kmg-folio-btn");
 
-    kmg-folio-btn.addEventListener("click", (e) = {
-        e.preventDefault};
-        kmg-folio-btn.classList.add("animate");
+//     kmg-folio-btn.addEventListener("click", (e) = {
+//         e.preventDefault};
+//         kmg-folio-btn.classList.add("animate");
 
-        setTimeout(() => {
-            kmg-folio-btn.classList.remove("animate");
-        }, 600); // 1s = 1000ms;
-    });
-</script> */}
+//         setTimeout(() => {
+//             kmg-folio-btn.classList.remove("animate");
+//         }, 600); // 1s = 1000ms;
+//     });
+// </script> */}
 
 
 

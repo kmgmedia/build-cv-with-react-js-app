@@ -50,8 +50,8 @@ const About = () => {
                 success in the <span className='more-bold-body'>Design Industry,</span> and I <br />can always eager to expand my knowledge
                 to create stunning <br /> designs.</p>
                 <p>
-                When I’m not working, I love to <span className='more-bold-body'>see new places</span>, I continues to learn and
-                explore new <br /> technologies like NFT, Animations to enhance my impressive <span className='more-bold-body'>portfolio.</span> <br />
+                When I’m not working, I love to <span className='more-bold-body'>see new places</span>, I continues to learn <br />and
+                explore new technologies like NFT, Animations to enhance my <br /> impressive <span className='more-bold-body'>portfolio.</span> <br />
                 </p>
                 <p>I’m open to <span className='more-bold-body'>Job</span> opportunities where i can contribute, learn and grow. <br />
                 If you have any opportunity that matches my skills and experience, <br /> then don’t hesitate to <span className='more-bold-body'>contact me.</span></p>
@@ -117,7 +117,7 @@ const About = () => {
         </div>
 
 
-        {/* <div className="row about-1">
+        <div className="row about-1">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
@@ -130,9 +130,9 @@ const About = () => {
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div> */}
+        </div>
 
-        {/* <div className="row pt-5">
+        <div className="row pt-5">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
@@ -156,20 +156,20 @@ const About = () => {
             <h5>2023/2024</h5>
             <div>
                 <p>
-                Highly proficient in designing applications, <br /> committed
-                to delivering efficient solutions that <br /> exceed client
-                expectations. Possesses strong <br /> problem-solving skills and
-                the ability to adapt <br /> quickly to new technologies.</p>
+                Highly proficient in designing applications, committed
+                to delivering efficient solutions that exceed client
+                expectations. Possesses strong problem-solving skills and
+                the ability to adapt quickly to new technologies.</p>
             </div>
             </div>
             </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        </div> */}
+        </div>
 
 
-        {/* <div className="row">
+        <div className="row">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
@@ -192,9 +192,9 @@ const About = () => {
             <h5>2022/2023</h5>
             <div>
                 <p>
-                Working with the organisation is a good privilege <br />for me to
-                explore many good designs that will <br /> attract audiences on social
-                media. <br /> Demonstrates strong problem-solving skills and <br /> a rapid
+                Working with the organisation is a good privilege for me to
+                explore many good designs that will attract audiences on social
+                media. Demonstrates strong problem-solving skills and a rapid
                 adaptability to new technologies.</p>
             </div>
             </div>
@@ -202,9 +202,9 @@ const About = () => {
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        </div> */}
+        </div>
 
-        {/* <div className="row">
+        <div className="row">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
@@ -229,21 +229,21 @@ const About = () => {
             <div>
                 <p>
                 Expertly manage and manipulate grids and grid structures,
-                while overseeing artwork design <br /> through two primary channels:
-                crafting original designs tailored to the company's objectives <br />
+                while overseeing artwork design  through two primary channels:
+                crafting original designs tailored to the company's objectives 
                 and requirements, and implementing alternative design solutions
                 to align with business needs, employing a user-generated design
-                (UCD) <br /> approach. Collaborated across functions to consistently achieve
-                a client satisfaction rate of <br /> 95%.</p>
+                (UCD) approach. Collaborated across functions to consistently achieve
+                a client satisfaction rate of <strong>95%.</strong> </p>
             </div>
             </div>
             </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        </div> */}
+        </div>
 
-        {/* <div className="row">
+        <div className="row">
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row gbengus12">
@@ -261,6 +261,7 @@ const About = () => {
             <img src= {Experience3} alt="" />
             </div>
             </div>
+            
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div data-aos='fade-left' data-aos-delay="300" className='Year-of-work'>
             <h5>2009/2012</h5>
@@ -278,7 +279,7 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
 
         
-        <div className="row about-1 url" style={{backgroundImage: `url(${Backgroundpattern})`}}>
+        {/* <div className="row about-1 url" style={{backgroundImage: `url(${Backgroundpattern})`}}>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
@@ -325,9 +326,9 @@ const About = () => {
         </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        </div>
-
         </div> */}
+
+        </div>
 
         </>
     )
