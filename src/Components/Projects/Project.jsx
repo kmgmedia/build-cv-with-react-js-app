@@ -1,10 +1,29 @@
-import React from 'react'
+import React from 'react';
 import './project.scss';
 import { Macpckmgfolio, Macnexcent, mackbooksicklecell, Phonesmarthom } from '../../assets';
 import { Macbyc } from '../../assets';
-import { Phonepethome} from '../../assets';
+import { Phonepethome } from '../../assets';
 // import Aos from "aos";
 // import 'aos/dist/aos.css'
+
+
+
+// Event handler Property 
+const handleClick = (event) => console.log(event);
+
+{/* <script>
+    const kmg-folio-btn = document.querySelector(".kmg-folio-btn");
+
+    kmg-folio-btn.addEventListener("click", (e) = {
+        e.preventDefault};
+        kmg-folio-btn.classList.add("animate");
+
+        setTimeout(() => {
+            kmg-folio-btn.classList.remove("animate");
+        }, 600); // 1s = 1000ms;
+    });
+</script> */}
+
 
 
 const Project = () => {
@@ -56,8 +75,10 @@ const Project = () => {
                     the project by visiting the project link below.
                     </p>
                 </div>
-                <div className='conta'>
-                <button className='kmg-folio-btn'>Case Study</button>
+                <div
+                className='conta'>
+                <button className='kmg-folio-btn animate'
+                onClick={handleClick}>Case Study</button>
             </div>
             </div>
             </div>
@@ -86,7 +107,8 @@ const Project = () => {
                     </p>
                 </div>
                 <div className='conta'>
-                    <button className='kmg-folio-btn'>Case Study</button>
+                    <button className='kmg-folio-btn'
+                    onClick={handleClick}>Case Study</button>
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-7">
@@ -122,7 +144,8 @@ const Project = () => {
                     </p>
                 </div>
                 <div className='conta'>
-                <button className='kmg-folio-btn'>Case Study</button>
+                <button className='kmg-folio-btn'
+                onClick={handleClick}>Case Study</button>
             </div>
             </div>
             </div>
@@ -150,7 +173,8 @@ const Project = () => {
                     </p>
                 </div>
                 <div className='conta'>
-                    <button className='kmg-folio-btn'>Case Study</button>
+                    <button className='kmg-folio-btn'
+                    onClick={handleClick}>Case Study</button>
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-7">
@@ -189,7 +213,8 @@ const Project = () => {
                     </p>
                 </div>
                 <div className='conta'>
-                <button className='kmg-folio-btn'>Case Study</button>
+                <button className='kmg-folio-btn'
+                onClick={handleClick}>Case Study</button>
             </div>
             </div>
             </div>
@@ -216,7 +241,8 @@ const Project = () => {
                     </p>
                 </div>
                 <div className='conta'>
-                    <button className='kmg-folio-btn'>Case Study</button>
+                    <button className='kmg-folio-btn'
+                    onClick={handleClick}>Case Study</button>
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-7">
