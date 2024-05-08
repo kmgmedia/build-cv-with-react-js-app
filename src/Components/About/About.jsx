@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import './about.scss';
 import { Heroimage } from "../../assets";
 import { Heylogo } from "../../assets";
@@ -7,6 +8,7 @@ import { Experience1 } from "../../assets";
 import { Experience2 } from "../../assets";
 import { Experience3 } from "../../assets";
 import { Backgroundpattern } from "../../assets";
+import { FaDownload } from "react-icons/fa";
 
 
 
@@ -109,7 +111,7 @@ const About = () => {
             </div>
             </div>
             <div data-aos='fade-right' className='conta'>
-                <button className='conta-1'>CONTACT</button>
+                <button className='conta-1'>DOWNLOAD CV<FaDownload size={20}/></button>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>

@@ -68,7 +68,7 @@ const Nexcentfoliobigpage = () => {
                         Kmgfolio sand as a victorious, born from my creative drive.
                         I created this project to quickly build a good-looking and fast
                         performing multi-stage portfolio. Feel free to check out the project
-                        by visiting the project link below.
+                        by visiting the project Full CaseStudy link below.
                         </p>
                     </div>
                 </div>
@@ -112,10 +112,10 @@ const Nexcentfoliobigpage = () => {
                 <div class="col-sm-12 col-md-12 col-lg-7">
                     <div className='folio-session '>
                         <div className='folio-text'>
-                            <h5>See Live</h5>
+                            <h5>See Full</h5>
                         </div>
                         <div className='btnn-111'>
-                            <button className='btnn1'>Live Link</button>
+                            <button className='btnn1'>Full CaseStudy</button>
                             <button className='btnn-2'>Go Back</button>
                         </div>
                     </div>

@@ -72,7 +72,7 @@ const Hero = () => {
         <div className="col-sm-12 col-md-12 col-lg-10">
             <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-7">
-                <div data-aos='fade-up' className='hero-image-text'>
+                <div data-aos='fade-right' className='hero-image-text'>
                         <p>This site is <span className='boldpart-1'>Part portfolio,</span> <span className='boldpart-2'>Part hand crafted works,</span> Full work in progress. <br />
                         To learn more about current projects and get InTouch, hit the link below.
                         </p>

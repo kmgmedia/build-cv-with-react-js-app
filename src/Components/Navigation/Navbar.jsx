@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from "react";
+import { useState, Link } from "react";
 import './navbar.scss';
 import Logo from "../../assets/Kmg.png"
 import { FaBehance, } from "react-icons/fa";
@@ -29,7 +29,7 @@ const Navbar = () => {
                     <a className="nav-link home" href="#">Home <span className="sr-only"></span></a>
                     </li>
                     <li className="nav-item-1">
-                    <a className="nav-link about" href="#">About</a>
+                    <a className="nav-link about" href="#"> About</a>
                     </li>
                     <li className="nav-item-1">
                     <a className="nav-link" href="#">Project</a>

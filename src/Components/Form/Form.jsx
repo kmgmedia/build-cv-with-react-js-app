@@ -1,19 +1,19 @@
-import React from 'react'
+import React from 'react';
 import './form.scss';
 import { Backgroundpattern } from "../../assets";
 import { FaPhoneSquareAlt, FaEnvelopeSquare } from "react-icons/fa";
 
 
 const Form = () => {
-  const handleSend = (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
-          console.log('Sent');
+    console.log( 'Submitted' );
   }
 
 
     return (
         <>
-        <form onSunmit={handleSend}>
+        <form onSubmit={handleSubmit}>
           
         <div className="row about-1 url" style={{backgroundImage: `url(${Backgroundpattern})`}}>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -21,7 +21,7 @@ const Form = () => {
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
             <div className='aboutmecont'>
-            <h4>CONTACT</h4>
+            <h4>CONTACT ME</h4>
             <span className="line"></span>
             <div data-aos='zoom-in'>
                 <p>
@@ -53,7 +53,7 @@ const Form = () => {
                 <h4><FaPhoneSquareAlt size={30}/>+234 915 096 2867</h4>
               </div>
               <div className='email-envelop'>
-                <h4><FaEnvelopeSquare size={30}/>morufbadebola@gmail.com</h4>
+                <h4><FaEnvelopeSquare size={30} />morufbadebola@gmail.com</h4>
               </div>
               </section>
             </div>
@@ -84,7 +84,7 @@ const Form = () => {
                     <label class="form-label" for="form-3">Message</label>
                     <textarea class="form-control" id="form-3" rows="4" placeholder='Enter Your Message'></textarea>
                 </div>
-                <button className="btn btn-send"type='send'>Send</button>
+                <button className="btn btn-send" type='submit'>Send</button>
               </form>
             </section>
             
