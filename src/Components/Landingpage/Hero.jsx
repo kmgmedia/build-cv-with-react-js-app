@@ -22,11 +22,22 @@ const Hero = () => {
 
     return (
         <>
-        <div className=" body row" style={{backgroundImage: `url(${Backgroundpattern})`}}>
-        <div className="col-sm-12 col-md-12 col-lg-1"></div>
-        <div className="col-sm-12 col-md-12 col-lg-10">
+
+         {/* <div className='container body row' style={{backgroundImage: `url(${Backgroundpattern})`}}>
             <div className="row">
-                <div className="col-sm-12 col-md-12 col-lg-7">
+                <div className="col-lg-6 col-md-12">
+                    
+                </div>
+                <div className="col-lg-6 col-md-12">
+                    <div>Second row</div>
+                </div>
+            </div>
+         </div> */}
+         <div className=" body row" style={{backgroundImage: `url(${Backgroundpattern})`}}>
+         <div className="col-sm-12 col-md-12 col-lg-1"></div>
+         <div className="col-sm-12 col-md-12 col-lg-11">
+            <div className="row">
+                <div className="col-sm-12 col-md-7 col-lg-6">
                     <div className='hey-session'>
                         <img data-aos='zoom-in-down'src= {Heylogo} alt="" />
                         <div className='hero-text'>
@@ -48,28 +59,26 @@ const Hero = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-12 col-lg-5">
+                <div className="col-sm-12 col-md-12 col-lg-4">
                     <div data-aos='fade-left' data-aos-delay="500" className='hero-image'>
                         <img src= {Heroimage} alt="" />
                     </div>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-5">
                 <div className='all-ellipse'>
-                    {/* <img src={Rectangle1029} alt="" /> */}
+                    {/* <img src={Rectangle1029} alt="" />  */}
                     <img src={Ellipse1106} alt="" />
                     <img src={Ellipse1104} alt="" />
                     <img src={Ellipse1105} alt="" />
                 </div>
                 </div>
             </div>
-        </div>
-        </div>
-        <div className="col-sm-12 col-md-12 col-lg-1"></div>
-
-
-        <div className="row all-this-site">
-        <div className="col-sm-12 col-md-12 col-lg-1"></div>
-        <div className="col-sm-12 col-md-12 col-lg-10">
+            </div>
+            </div>
+            <div className="col-sm-12 col-md-12 col-lg-1"></div>
+            <div className="row all-this-site">
+            <div className="col-sm-12 col-md-12 col-lg-1"></div>
+            <div className="col-sm-12 col-md-12 col-lg-10">
             <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-7">
                 <div data-aos='fade-right' className='hero-image-text'>
@@ -82,12 +91,14 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        <div className="col-sm-12 col-md-12 col-lg-1"></div>
+            </div>
+            </div>
+            <div className="col-sm-12 col-md-12 col-lg-1"></div> 
+            
+
         
         </>
     )
-    }
+}
 
-    export default Hero
+export default Hero

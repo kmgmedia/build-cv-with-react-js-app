@@ -14,9 +14,14 @@ $font-stack: Arial, Helvetica, sans-serif;
 $primary-color: #F8991D;
 $secondery-color: #232057;
 
-.row {
+/* .row {
     margin: 0 !important;
     }
+ */
+
+.row {
+    padding: 0% 1%;
+}
 
 .hey-session {
     padding-top: 13rem;
@@ -30,12 +35,13 @@ $secondery-color: #232057;
 .hero-text h1 {
     color: $secondery-color;
     font-family: $font-stack;
-    font-size: 75px;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     padding-top: 1rem;
 }
+
 
 .minename {
     color: $primary-color
@@ -67,25 +73,35 @@ $secondery-color: #232057;
 }
 
 @keyframes ani1 {
-    0%{
-        opacity: 0;
-    }
-    10%{
+    0% {
         opacity: 1;
     }
-    20%{
+    20% {
+        opacity: 1; /* Keep opacity at 1 until 20% */
+    }
+    25% {
+        opacity: 0; /* Change opacity to 0 instantly */
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
         opacity: 0;
     }
 }
 
+
 @keyframes ani2 {
-    20%{
+    0% {
         opacity: 0;
     }
-    30%{
+    50% {
+        opacity: 0;
+    }
+    75% {
         opacity: 1;
     }
-    40%{
+    100% {
         opacity: 0;
     }
 }
@@ -217,12 +233,9 @@ margin-bottom: 1rem;
 }
 
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
 
 
-    // .hero-text h1 br {
-    //     display: none;
-    // }
 
     .hey-session {
         width: 100%;
@@ -366,7 +379,7 @@ margin-bottom: 1rem;
     .hero-image-text {
         width: 45rem;
     }
-}
+} */
 
 // @media screen and (min-width: 1280px) and (max-width: 800px) {
 

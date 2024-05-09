@@ -240,7 +240,7 @@ const Project = () => {
                     </p>
                 </div>
                 <div className='conta'>
-                  <Button />
+                    <Button />
                 {/* <button className='kmg-folio-btn'
                 onClick={handleClick}>Case Study</button> */}
             </div>
@@ -269,6 +269,7 @@ const Project = () => {
                     </p>
                 </div>
                 <div className='conta'>
+                    <Button />
                     {/* <button className='kmg-folio-btn'
                     onClick={handleClick}>Case Study</button> */}
                 </div>
