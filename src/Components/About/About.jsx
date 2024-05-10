@@ -8,7 +8,7 @@ import { Experience1 } from "../../assets";
 import { Experience2 } from "../../assets";
 import { Experience3 } from "../../assets";
 import { Backgroundpattern } from "../../assets";
-import { FaDownload } from "react-icons/fa";
+import { FaDownload, FaArrowRight } from "react-icons/fa";
 
 
 
@@ -119,9 +119,9 @@ const About = () => {
         </div>
 
 
-        <div className="row about-1">
+        <div className="row about-1 ">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10">
+        <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
             <div className='experience'>
@@ -135,8 +135,8 @@ const About = () => {
         </div>
 
         <div className="row pt-5">
-        <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-8">
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div data-aos='fade-right' className='idclngname'>
@@ -148,12 +148,12 @@ const About = () => {
             </div>
             </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-2">
+            <div class="col-sm-12 col-md-12 col-lg-1">
             <div className="Experience">
             <img src= {Experience} alt="" />
             </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="col-sm-12 col-md-12 col-lg-5">
             <div data-aos='fade-left' className='Year-of-work'>
             <h5>2023/2024</h5>
             <div>
@@ -167,13 +167,13 @@ const About = () => {
             </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
 
 
         <div className="row">
-        <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-8">
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div data-aos='fade-right' data-aos-delay="300" className='idclngname'>
@@ -184,12 +184,12 @@ const About = () => {
             </div>
             </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-2">
+            <div class="col-sm-12 col-md-12 col-lg-1">
             <div className="Experience">
             <img src= {Experience1} alt="" />
             </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="col-sm-12 col-md-12 col-lg-5">
             <div data-aos='fade-left' data-aos-delay="300" className='Year-of-work'>
             <h5>2022/2023</h5>
             <div>
@@ -203,12 +203,12 @@ const About = () => {
             </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
 
         <div className="row">
-        <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-8">
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div data-aos='fade-right' data-aos-delay="300" className='idclngname'>
@@ -220,12 +220,12 @@ const About = () => {
             </div>
             </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-2">
+            <div class="col-sm-12 col-md-12 col-lg-1">
             <div className="Experience">
             <img src= {Experience2} alt="" />
             </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="col-sm-12 col-md-12 col-lg-5">
             <div data-aos='fade-left' data-aos-delay="300" className='Year-of-work'>
             <h5>2019/2024</h5>
             <div>
@@ -242,12 +242,12 @@ const About = () => {
             </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
 
         <div className="row">
-        <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-8">
             <div class="row gbengus12">
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div data-aos='fade-right' data-aos-delay="300" className='idclngname'>
@@ -258,13 +258,12 @@ const About = () => {
             </div>
             </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-2">
+            <div class="col-sm-12 col-md-12 col-lg-1">
             <div className="Experience">
             <img src= {Experience3} alt="" />
             </div>
             </div>
-            
-            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="col-sm-12 col-md-12 col-lg-5">
             <div data-aos='fade-left' data-aos-delay="300" className='Year-of-work'>
             <h5>2009/2012</h5>
             <div>
@@ -278,57 +277,7 @@ const About = () => {
             </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-2"></div>
-
-        
-        {/* <div className="row about-1 url" style={{backgroundImage: `url(${Backgroundpattern})`}}>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10">
-            <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-            <div className='aboutme'>
-            <h4>CONTACT</h4>
-            <span className="line"></span>
-            <div data-aos='zoom-in'>
-                <p>
-                Embracing compelling challenges and opportunities, feel free to <br />
-                contact me via the details below.</p>
-            </div>
-            </div>
-            </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-        <div className="row ">
-        <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10">
-            <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6">
-            <div className='get-in'>
-            <h4>Get in touch</h4>
-
-            <div>
-                <p>
-                Embracing compelling challenges and opportunities, feel free to <br />
-                contact me via the details below.</p>
-            </div>
-            </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-6">
-            <div className='send-message'>
-            <h4>Send me a message</h4>
-            <div>
-                <p>
-                Embracing compelling challenges and opportunities, feel free to <br />
-                contact me via the details below.</p>
-            </div>
-            </div>
-            </div>
-            </div>
-        </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        </div> */}
 
         </div>
 

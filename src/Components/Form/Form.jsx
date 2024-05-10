@@ -50,10 +50,10 @@ const Form = () => {
             </div>
               <section>
                 <div className='call-number pt-4'>
-                <h4><FaPhoneSquareAlt size={30}/>+234 915 096 2867</h4>
+                <h4><span className='bbtn2'><FaPhoneSquareAlt size={30}/></span>+234 915 096 2867</h4>
               </div>
               <div className='email-envelop'>
-                <h4><FaEnvelopeSquare size={30} />morufbadebola@gmail.com</h4>
+                <h4><span className='bbtn2'><FaEnvelopeSquare size={30} /></span>morufbadebola@gmail.com</h4>
               </div>
               </section>
             </div>
