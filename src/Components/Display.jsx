@@ -20,22 +20,18 @@ import Footer from './Footer/Footer';
         <React.Fragment>
             <BrowserRouter>
             <Navbar />
+            <Hero />
+            <Projects />
+            <Form />
+            <Footer />
+
             <Routes>
-                
-                <Route index element={<Hero />}/>
-                <Route path='Projects' element={<Projects />}/>
-                <Route path='About' element={<About />}/>
-                <Route path='Form' element={<Form />}/>
-                <Route path='Footer' element={<Footer />}/>
-                
+                <Route Link='About' element={<About />}/>
+                {/* <Route path='Form' element={<Form />}/> */}
+                {/* <Route index element={<Footer />}/> */}
                 
             </Routes>
             </BrowserRouter>
-            {/* <Navbar/>
-            <Hero/>
-            <Projects/>
-            <Form/>
-            <Footer/> */}
         </React.Fragment>
     )
 }

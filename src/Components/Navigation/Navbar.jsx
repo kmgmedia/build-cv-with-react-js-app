@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import './navbar.scss';
 import Logo from "../../assets/Kmg.png"
-import { FaBehance, FaArrowRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 
 
@@ -36,11 +36,11 @@ const Navbar = () => {
                                 <li className={`nav-item-1 ${activeLink === 'Home' ? 'active' : ''}`}>
                                     <Link className='link' to="/" onClick={() => handleLinkClick('Home')}>Home</Link>
                                 </li>
-                                <li className={`nav-item-1 ${activeLink === 'Projects' ? 'active' : ''}`}>
-                                    <Link className='link' to="/Projects" onClick={() => handleLinkClick('Projects')}>Projects</Link>
-                                </li>
                                 <li className={`nav-item-1 ${activeLink === 'About' ? 'active' : ''}`}>
                                     <Link className='link' to="/About" onClick={() => handleLinkClick('About')}>About</Link>
+                                </li>
+                                <li className={`nav-item-1 ${activeLink === '{Projects}' ? 'active' : ''}`}>
+                                    <Link className='link' to="/Projects" onClick={() => handleLinkClick('Projects')}>Projects</Link>
                                 </li>
                                 {/* <li className={`nav-item-1 ${activeLink === 'Form' ? 'active' : ''}`}>
                                     <Link className='link' to="/Form" onClick={() => handleLinkClick('Form')}>Download CV</Link>
@@ -49,7 +49,7 @@ const Navbar = () => {
                                     <Link className='link' to="/Footer" onClick={() => handleLinkClick('Footer')}>Contact</Link>
                                 </li> */}
                                 <div>
-                                    <span className='nav-item-2'>Download CV</span>
+                                    <span className='nav-item-2'>Resume</span>
                                 </div>
                                 <div>
                                     <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDDDfxMsltMgwtRvxjdxMJZrPWSRcnTzbqrkFbJgWDBDKTPVfvsVRbpRlTxhhkxJCNBDvf">
@@ -67,6 +67,9 @@ const Navbar = () => {
             </div>
         
         </div>
+        
+        
+        
         
         
         </>

@@ -1,7 +1,7 @@
 import React from 'react'
-import './contact.scss';
+import './resume.scss';
 
-const Contact = () => {
+const Resume = () => {
     return (
         <div>
         
@@ -9,4 +9,4 @@ const Contact = () => {
     )
     }
 
-export default Contact
+export default Resume
