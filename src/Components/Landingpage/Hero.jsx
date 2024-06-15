@@ -37,7 +37,7 @@ const Hero = () => {
                                 </div>
                                 
                                 <div data-aos= "zoom-in" className='hero-p'>
-                                    <p>A product designer with years of experience, currently <br/>
+                                    <p>A product designer with yyears of experience, currently <br/>
                                         shaping in coding the future, building digital worlds products <br/>
                                         within energetic and dynamic cross-functional settings.
                                     </p>
