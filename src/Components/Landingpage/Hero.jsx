@@ -46,22 +46,16 @@ const Hero = () => {
                                     <button className='portfolio'>Projetcs <i></i></button>
                                     <button className='hireme'>Hire me</button>
                                 </div>
-                                
-                                {/* <h1>I’m <span className='minename b1 '>Moruf</span>
-                                <span className='minename b2'>Adebola,</span> <br/>Product Designer</h1> */}
                             </div>
                             <div class="col-lg-5 col-md-12">
                                 <div data-aos='fade-left' data-aos-delay="500" className='hero-img1'>
                                     <img src= {Heroimage} alt="" />
                                 </div>
-                                
-                                {/* <img src= {Heroimage} alt="" /> */}
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-1"></div>
                 </div>
-
                 <div className="col-sm-12 col-md-12 col-lg-1"></div>
                 <div className="row all-this-site">
                     <div className="col-sm-12 col-md-12 col-lg-1"></div>
@@ -78,36 +72,11 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-              </div>
-
-
-                
-                {/* <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-10">
-                        <div class="row">
-                            <div class="col-lg-7 col-md-12">
-                               <p>A product designer with years of experience, currently <br/>
-                                shaping in coding the future, building digital worlds products <br/>
-                                within energetic and dynamic cross-functional settings.
-                                </p> 
-                            </div>
-                            <div class="col-lg-5 col-md-12">
-                                {/* <p>A product designer with years of experience, currently <br/>
-                                shaping in coding the future, building digital worlds products <br/>
-                                within ergetic and dynamic cross-functional settings.
-                            </p> *
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-1"></div>
-                </div> */}
+            </div>
             </div>
             
 
         </div>
-
-        
     )
 }
 
