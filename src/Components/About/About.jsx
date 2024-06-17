@@ -3,12 +3,8 @@ import { Link } from "react-router-dom";
 import './about.scss';
 import { Heroimage } from "../../assets";
 import { Heylogo } from "../../assets";
-import { Experience } from "../../assets";
-import { Experience1 } from "../../assets";
-import { Experience2 } from "../../assets";
-import { Experience3 } from "../../assets";
 import { Backgroundpattern } from "../../assets";
-import { FaDownload, FaArrowRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 
 
@@ -110,9 +106,6 @@ const About = () => {
             </div>
             </div>
             </div>
-            <div data-aos='fade-right' className='conta'>
-                <button className='conta-1'>DOWNLOAD CV<FaDownload size={20}/></button>
-            </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
@@ -125,160 +118,13 @@ const About = () => {
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
             <div className='experience'>
-            <h4>EXPERIENCE</h4>
+            <h4>Hire Me For Your Next Project</h4>
             <span className="line"></span>
             </div>
             </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-
-        <div className="row pt-5">
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-8">
-            <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-            <div data-aos='fade-right' className='idclngname'>
-            <h4>IDCLng</h4>
-            <div>
-                <p>
-                Experience Product Designer/ <br />
-                Cooperate Branding, Agile/Scrum Master</p>
-            </div>
-            </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-1">
-            <div className="Experience">
-            <img src= {Experience} alt="" />
-            </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-5">
-            <div data-aos='fade-left' className='Year-of-work'>
-            <h5>2023/2024</h5>
-            <div>
-                <p>
-                Highly proficient in designing applications, committed
-                to delivering efficient solutions that exceed client
-                expectations. Possesses strong problem-solving skills and
-                the ability to adapt quickly to new technologies.</p>
-            </div>
-            </div>
-            </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-
-
-        <div className="row">
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-8">
-            <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-            <div data-aos='fade-right' data-aos-delay="300" className='idclngname'>
-            <h4>United States Of Africa</h4>
-            <div>
-                <p>
-                Freelance Graphic Designer/ <br /> UI UX Designer</p>
-            </div>
-            </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-1">
-            <div className="Experience">
-            <img src= {Experience1} alt="" />
-            </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-5">
-            <div data-aos='fade-left' data-aos-delay="300" className='Year-of-work'>
-            <h5>2022/2023</h5>
-            <div>
-                <p>
-                Working with the organisation is a good privilege for me to
-                explore many good designs that will attract audiences on social
-                media. Demonstrates strong problem-solving skills and a rapid
-                adaptability to new technologies.</p>
-            </div>
-            </div>
-            </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-
-        <div className="row">
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-8">
-            <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-            <div data-aos='fade-right' data-aos-delay="300" className='idclngname'>
-            <h4>KmgMedia</h4>
-            <div>
-                <p>
-                Freelance Graphic Designer/ <br />
-                UI UX Designer, Cooperate Branding</p>
-            </div>
-            </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-1">
-            <div className="Experience">
-            <img src= {Experience2} alt="" />
-            </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-5">
-            <div data-aos='fade-left' data-aos-delay="300" className='Year-of-work'>
-            <h5>2019/2024</h5>
-            <div>
-                <p>
-                Expertly manage and manipulate grids and grid structures,
-                while overseeing artwork design  through two primary channels:
-                crafting original designs tailored to the company's objectives 
-                and requirements, and implementing alternative design solutions
-                to align with business needs, employing a user-generated design
-                (UCD) approach. Collaborated across functions to consistently achieve
-                a client satisfaction rate of <strong>95%.</strong> </p>
-            </div>
-            </div>
-            </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-
-        <div className="row">
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-8">
-            <div class="row gbengus12">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-            <div data-aos='fade-right' data-aos-delay="300" className='idclngname'>
-            <h4>Gbengus Production</h4>
-            <div>
-                <p>
-                Screen Printing / Graphic Design, <br /> Cooperate Branding</p>
-            </div>
-            </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-1">
-            <div className="Experience">
-            <img src= {Experience3} alt="" />
-            </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-5">
-            <div data-aos='fade-left' data-aos-delay="300" className='Year-of-work'>
-            <h5>2009/2012</h5>
-            <div>
-                <p>
-                Proficient in developing cutting-edge screen printing designs,
-                committed to delivering solutions that exceed client expectations.
-                Demonstrates adept problem-solving skills and proactively embraces
-                emerging design trends.</p>
-            </div>
-            </div>
-            </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-
         </div>
 
         </>

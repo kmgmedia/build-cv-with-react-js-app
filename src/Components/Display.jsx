@@ -20,6 +20,12 @@ import Footer from './Footer/Footer';
         <React.Fragment>
             <BrowserRouter>
             <Navbar />
+            {/* <Kmgfoliobigpage /> */}
+
+            
+
+            
+
             <Hero />
             <Projects />
             <Form />

@@ -24,10 +24,10 @@ const Smarthomefolio = () => {
             </div>
         </div>
         <div className="row about-big-11">
-        <div class="col-sm-4 col-md-5 col-lg-5"></div>
-        <div class="col-sm-4 col-md-5 col-lg-2">
+        <div class="col-sm-4 col-md-5 col-lg-1"></div>
+        <div class="col-sm-4 col-md-5 col-lg-7">
             <div class="row">
-            <div class="col-sm-4 col-md-5 col-lg-4">
+            <div class="col-sm-4 col-md-5 col-lg-8">
             <div className='conta'>
                 <button className='kmg-folio-big-btn'>Live Link</button>
             </div>
@@ -36,10 +36,10 @@ const Smarthomefolio = () => {
         </div>
         </div>
         <div className="row about-big-img-1">
-        <div class="col-sm-12 col-md-12 col-lg-4"></div>
-        <div class="col-sm-12 col-md-12 col-lg-2">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-8">
             <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="col-sm-12 col-md-12 col-lg-7">
             <div className='aboutme-big-img'>
             <img src= {Phonesmarthombig} alt="" />
             </div>

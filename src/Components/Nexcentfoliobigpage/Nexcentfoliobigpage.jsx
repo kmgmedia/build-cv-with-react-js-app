@@ -7,7 +7,7 @@ import { Macnexcentbig, Backgroundpattern } from '../../assets';
 const Nexcentfoliobigpage = () => {
 
 
-  return (
+return (
     
     <>
 
@@ -28,23 +28,23 @@ const Nexcentfoliobigpage = () => {
             </div>
             </div>
         </div>
-        <div className="row about-big-11">
-        <div class="col-sm-4 col-md-5 col-lg-5"></div>
-        <div class="col-sm-4 col-md-5 col-lg-2">
+        <div className="row kmg-nexcent">
+        <div class="col-sm-4 col-md-12 col-lg-1"></div>
+        <div class="col-sm-4 col-md-12 col-lg-7">
             <div class="row">
-            <div class="col-sm-4 col-md-5 col-lg-4">
-            <div className='conta'>
+            <div class="col-sm-4 col-md-12 col-lg-8">
+            <div className='contaa'>
                 <button className='kmg-folio-big-btn'>Live Link</button>
             </div>
             </div>
             </div>
         </div>
         </div>
-        <div className="row about-big-img-1">
-        <div class="col-sm-12 col-md-12 col-lg-4"></div>
-        <div class="col-sm-12 col-md-12 col-lg-2">
+        <div className="row ">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-8">
             <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="col-sm-12 col-md-12 col-lg-7">
             <div className='aboutme-big-img'>
             <img src= {Macnexcentbig} alt="" />
             </div>
