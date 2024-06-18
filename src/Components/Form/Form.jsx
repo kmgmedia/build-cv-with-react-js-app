@@ -1,7 +1,7 @@
 import React from 'react';
 import './form.scss';
-import { Backgroundpattern } from "../../assets";
-import { FaPhoneSquareAlt, FaEnvelopeSquare, FaLocationArrow } from "react-icons/fa";
+import { Backgroundpattern, Location, Email23, Phone } from "../../assets";
+// import { FaPhoneSquareAlt, FaEnvelopeSquare, FaLocationArrow } from "react-icons/fa";
 
 
 
@@ -23,6 +23,7 @@ const Form = () => {
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
             <div className='aboutmecont'>
+            <h4 className='hirem'>Hire Me For Your Next Project</h4>
             <h4>CONTACT ME</h4>
             <span className="line"></span>
             <div data-aos='zoom-in'>
@@ -39,26 +40,26 @@ const Form = () => {
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row hold-background">
-            <div class="col-sm-12 col-md-12 col-lg-5">
+            <div class="col-sm-12 col-md-12 col-lg-6">
             <div data-aos='fade-right' className='get-to-know-me get-well'>
             <h5>Get in touch</h5>
             <div><i class="fa-solid fa-square-phone"></i>
                 <p>
-                I'm very approachable and would love to speak to you.
-                Feel free to call, send me an email. Follow  me in social media or
-                simply complete the enquiry for.</p>
+                I'm very approachable and would love to speak <br /> to you.
+                Feel free to call, send me an email. Follow <br /> me in social media or
+                simply complete the <br /> enquiry for.</p>
                 {/* <p>I’m open to <span className='more-bold-body'>Job</span> opportunities where i can contribute, learn and grow. <br />
                 If you have any opportunity that matches my skills and experience, <br /> then don’t hesitate to <span className='more-bold-body'>contact me.</span></p> */}
             </div>
               <section>
-                <div className='call-number pt-4'>
-                <h4><span className='bbtn2'><FaPhoneSquareAlt size={30}/></span>+234 915 096 2867</h4>
+                <div className='call-number pt-4 pb-4'>
+                <h4><span className='bbtn2'><img src= {Location} alt=""/></span>+234 915 096 2867</h4>
               </div>
               <div className='email-envelop'>
-                <h4><span className='bbtn2'><FaEnvelopeSquare size={30} /></span>morufbadebola@gmail.com</h4>
+                <h4><span className='bbtn2'><img src= {Email23} alt="" /></span>morufbadebola@gmail.com</h4>
               </div>
               <div className='email-envelop'>
-                <h4><span className='bbtn2'><FaLocationArrow size={30} /></span>Lagos, Nigeria</h4>
+                <h4><span className='bbtn2'> <img src= {Location} alt="" /></span>Lagos, Nigeria</h4>
               </div>
               </section>
             </div>
@@ -68,7 +69,7 @@ const Form = () => {
 {/* Form Session */}
 
                {/* Name input */}
-            <div class="col-sm-12 col-md-12 col-lg-5">
+            <div class="col-sm-12 col-md-12 col-lg-6">
             <div data-aos='' className='get-to-know-me'>
             <h5>Send me a message</h5>
             <section className='form-body'>
@@ -85,7 +86,7 @@ const Form = () => {
                 </div>
 
                 {/* Message input */}
-                <div data-mdb-input-init class="form-outline mb-2">
+                <div data-mdb-input-init class="form-outline mb-2 pr-4">
                     <label class="form-label" for="form-3">Message</label>
                     <textarea class="form-control" id="form-3" rows="4" placeholder='Enter Your Message'></textarea>
                 </div>

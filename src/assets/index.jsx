@@ -13,5 +13,11 @@ export const Phonesmarthombig = require ('./Phonesmarthombig.png')
 export const Macbycbig = require ('./Macbycbig.png')
 export const Phonepethomebig = require ('./Phonepethomebig.png')
 export const Backgroundpattern = require ('./Backgroundpattern.png')
+export const Location = require ('./Location.png')
+export const Email23 = require ('./Email23.png')
+export const Phone = require ('./Phone.png')
+
+
+
 
 
