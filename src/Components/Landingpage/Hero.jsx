@@ -1,7 +1,7 @@
     import React from 'react'
     import { useEffect, useState } from "react";
     import './hero.scss';
-    import {Heroimage, Backgroundpattern, Rectangle1029, Ellipse1104, Ellipse1105, Ellipse1106} from "../../assets";
+    import {Heroimage, Backgroundpattern, Rectangle1029 } from "../../assets";
     import { Heylogo } from "../../assets";
     import { FaLinkedin, FaBehance, FaGithub, FaArrowUp, FaArrowAltCircleUp, } from "react-icons/fa";
     import { ArrowTop, FaceIcon, } from '@radix-ui/react-icons';
@@ -53,6 +53,30 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
+                        <div class="section-center">
+                                <div class="section-path">
+                                    <div class="globe">
+                                    <div class="wrapper">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                     <div class="col-lg-1"></div>
                 </div>
