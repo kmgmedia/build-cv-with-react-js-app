@@ -279,7 +279,7 @@ margin-bottom: 1rem;
 
     .section-center {
         position: absolute;
-        top: 50%;
+        top: 96%;
         left: 50%;
         z-index: 10;
         transform: translate(-50%, -50%);
@@ -309,8 +309,8 @@ margin-bottom: 1rem;
         position: absolute;
         top: 10%; /* Adjust the starting position */
         left: 50%;
-        width:6px;
-        height: 6px;
+        width:8px;
+        height: 8px;
         overflow: hidden;
         border-radius: 50%;
         background-color: #232057; /* Updated color */
