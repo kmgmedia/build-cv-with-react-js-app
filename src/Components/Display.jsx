@@ -22,9 +22,7 @@ import Footer from './Footer/Footer';
             <Navbar />
             {/* <Kmgfoliobigpage /> */}
 
-            
 
-            
 
             <Hero />
             <Projects />
