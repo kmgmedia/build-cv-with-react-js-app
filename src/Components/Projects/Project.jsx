@@ -10,44 +10,6 @@ import 'aos/dist/aos.css'
 
 
 
-// Event handler Property 
-/* const handleClick = () => {
-    handleClick = (e) => {
-        e.preventDefault();
-        const kmgFolioBtn = document.querySelector(".kmg-folio-btn");
-        kmgFolioBtn.classList.add("animate");
-        setTimeout(() => {
-          kmgFolioBtn.classList.remove("animate");
-        }, 600);
-      }
-    
-      render() {
-        return (
-          <button className="kmg-folio-btn" onClick={this.handleClick}>
-            Click me
-          </button>
-        );
-      }
-    
-    
-} */
-
-/* const handleClick = (event) => console.log(event);
-
-<script>
-    const kmg-folio-btn = document.querySelector(".kmg-folio-btn");
-
-    kmg-folio-btn.addEventListener("click", (e) = {
-        e.preventDefault};
-        kmg-folio-btn.classList.add("animate");
-
-        setTimeout(() => {
-            kmg-folio-btn.classList.remove("animate");
-        }, 600); // 1s = 1000ms;
-    });
-</script> */
-
-
 
 const Project = () => {
     return (

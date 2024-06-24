@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './about.scss';
 import { Heroimage } from "../../assets";
 import { Heylogo } from "../../assets";
-import { Backgroundpattern } from "../../assets";
+import { Backgroundpattern, Morufadebolaimage, Believephone } from "../../assets";
 import { FaArrowRight } from "react-icons/fa";
 
 
@@ -11,23 +11,23 @@ import { FaArrowRight } from "react-icons/fa";
 const About = () => {
     return (
 
-        <>
+    <>
         
         <div className="row about-1 url" style={{backgroundImage: `url(${Backgroundpattern})`}}>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-            <div className='aboutme'>
-            <h4>ABOUT ME</h4>
-            <span className="line"></span>
-            <div data-aos='zoom-in'>
-                <p>
-                Here you will find more information about me, what i do, and my current <br />
-                skills mostly in terms of design and Technology.</p>
-            </div>
-            </div>
-            </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div className='aboutme'>
+                        <h4>ABOUT ME</h4>
+                        <span className="line"></span>
+                        <div data-aos='zoom-in'>
+                            <p>
+                            Here you will find more information about me, what i do, and my current <br />
+                            skills mostly in terms of design and Technology.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -111,7 +111,6 @@ const About = () => {
         </div>
         </div>
 
-
         <div className="row about-1 ">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-12">
@@ -119,7 +118,6 @@ const About = () => {
             <div class="col-sm-12 col-md-12 col-lg-12">
             <div className='experience'>
             <h4>Hire Me For Your Next Project</h4>
-            <span className="line"></span>
             </div>
             </div>
             </div>
@@ -127,7 +125,110 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
 
-        </>
+
+
+
+
+    <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div className="row pt-5">
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+            <div class="col-sm-12 col-md-12 col-lg-10">
+                <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div data-aos='fade-right' className='get-to-know-me pt-4'>
+                        <p>
+                        <span className='more-bold-body'>💛  Passion is everything.</span> <br />
+                        I found that because I enjoy what I do, I have the drive and initiative
+                        to pour my heart into the things I believe in. I push for boundless
+                        creativity and to join other passionate people to make the world a happier place.
+                        </p>
+                        <p>
+                        <span className='more-bold-body'>📒  Never stop learning.</span> <br />
+                        I am always seeking challenges to continually develop myself, such as participating
+                        in competitions, collaborating on projects, reading blogs, and involving myself in
+                        the design community where I learn from others and also give back through mentorship
+                        and sharing my experiences and skills.
+                        </p>
+                        <p>
+                        <span className='more-bold-body'>✊  Embrace the journey.</span> <br />
+                        Embrace the learning curves and failures and discomfort. Open your mind and let
+                        curiosity and optimism drive you. Believe in yourself, and also have fun along the way.
+                        </p>
+                        <p>
+                        <span className='more-bold-body'>😊  Be human.</span> <br />
+                        Empathy and kindness go a long way. Share our knowledge and take time to understand
+                        different perspectives. Build towards a culture of inclusion and respect, and stay true
+                        to yourself and to others.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div data-aos='fade-left' className='get-to-know-me'>
+                        <div>
+                            <div className=''>
+                                <img src= {Morufadebolaimage} alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+    </div>
+
+    <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div className="row pt-5">
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                <div class="col-sm-12 col-md-12 col-lg-10">
+                    <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div>
+                                <div className=''>
+                                    <img src= {Believephone} alt="" />
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-5">
+                        <div data-aos='fade-left' className='get-to-know-me'>
+                            <div>
+                                <div className=''>
+                                    <img src= {Morufadebolaimage} alt="" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+    </div>
+
+    <div className="row project-1">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-10">
+            <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+            <div className='projectme'>
+            <h4>My Services</h4>
+            <span className="line"></span>
+            <div data-aos='zoom-in' >
+                <p>
+                Elevating your brand through expert UI/UX Design, Web <br />
+                Development, and Mobile App Creation.</p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        </div>
+
+
+
+    
+
+    </>
     )
 }
 

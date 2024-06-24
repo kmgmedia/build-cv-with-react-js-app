@@ -16,6 +16,13 @@ export const Backgroundpattern = require ('./Backgroundpattern.png')
 export const Location = require ('./Location.png')
 export const Email23 = require ('./Email23.png')
 export const Phone = require ('./Phone.png')
+export const Morufadebolaimage = require ('./Morufadebolaimage.png')
+export const Believephone = require ('./Believephone.png')
+
+
+
+
+
 
 
 
