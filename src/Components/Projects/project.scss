@@ -32,7 +32,6 @@ $secondery-color-2: #272829;
 }
 
 
-
 .projectme h4 {
     font-family: $font-stack;
     color: $secondery-color;
@@ -103,155 +102,175 @@ padding-top: 2rem;
     transition: transform 0.2s ease;
     box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
     }
+    
+
+    .hiremm {
+        font-family: $font-stack;
+        color: $secondery-color;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .hiremm {
+        background-color: $primary-color;
+        padding: 1rem;
+    }
+
+
+
+
+
 
 
     // Button animation splash
 
-    .kmg-folio-btn:active {
-        transform: scale(0.96);
-    }
+    // .kmg-folio-btn:active {
+    //     transform: scale(0.96);
+    // }
 
-    .kmg-folio-btn::before,
-    .kmg-folio-btn::after{
-        content: "";
-        position: absolute;
-        left: 9%;
-        transform: translate(-50%);
-        height: 30%;
-        width: 20%;
-        z-index: -1;
-        background-repeat: no-repeat;
-    }
+    // .kmg-folio-btn::before,
+    // .kmg-folio-btn::after{
+    //     content: "";
+    //     position: absolute;
+    //     left: 9%;
+    //     transform: translate(-50%);
+    //     height: 30%;
+    //     width: 20%;
+    //     z-index: -1;
+    //     background-repeat: no-repeat;
+    // }
 
-    .kmg-folio-btn.animate::before{
-        top: -70%;
-        background-image: radial-gradient(circle, #232057 20%, transparent 20%),
-        radial-gradient(circle, transparent 20%, #232057 20%, transparent 30%),
-        radial-gradient(circle, #232057 20%, transparent 20%),
-        radial-gradient(circle, transparent 10%, #232057 15%, transparent 20%),
-        radial-gradient(circle, #232057 20%, transparent 20%),
-        radial-gradient(circle, #232057 20%, transparent 20%),
-        radial-gradient(circle, #232057 20%, transparent 20%),
-        radial-gradient(circle, #232057 20%, transparent 20%);
-        background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
-        18% 18%;
-        background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 20% 90%,
-        40% 90%, 55% 90%, 70% 90%;
-        animation: topBubbles 0.6s ease-in-out forwards;
-    }
-    @keyframes topBubbles {
-        50% {
-            background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
-            50% 50%, 65% 20%, 90% 30%;
-        }
-        100% {
-            background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
-            50% 40%, 65% 10%, 90% 20%;
-            background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-        }
-    }
+    // .kmg-folio-btn.animate::before{
+    //     top: -70%;
+    //     background-image: radial-gradient(circle, #232057 20%, transparent 20%),
+    //     radial-gradient(circle, transparent 20%, #232057 20%, transparent 30%),
+    //     radial-gradient(circle, #232057 20%, transparent 20%),
+    //     radial-gradient(circle, transparent 10%, #232057 15%, transparent 20%),
+    //     radial-gradient(circle, #232057 20%, transparent 20%),
+    //     radial-gradient(circle, #232057 20%, transparent 20%),
+    //     radial-gradient(circle, #232057 20%, transparent 20%),
+    //     radial-gradient(circle, #232057 20%, transparent 20%);
+    //     background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+    //     18% 18%;
+    //     background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 20% 90%,
+    //     40% 90%, 55% 90%, 70% 90%;
+    //     animation: topBubbles 0.6s ease-in-out forwards;
+    // }
+    // @keyframes topBubbles {
+    //     50% {
+    //         background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+    //         50% 50%, 65% 20%, 90% 30%;
+    //     }
+    //     100% {
+    //         background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+    //         50% 40%, 65% 10%, 90% 20%;
+    //         background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    //     }
+    // }
 
-    .kmg-folio-btn.animate::after{
-        bottom: -20%;
-        background-image: radial-gradient(circle, #232057 20%, transparent 20%),
-        radial-gradient(circle, transparent 10%, #232057 15%, transparent 20%),
-        radial-gradient(circle, #232057 20%, transparent 20%),
-        radial-gradient(circle, #232057 20%, transparent 20%),
-        radial-gradient(circle, #232057 20%, transparent 20%),
-        radial-gradient(circle, #232057 20%, transparent 20%),
-        radial-gradient(circle, #232057 20%, transparent 20%);
-        background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
-        background-position: 10% 0%, 30% 10%, 55% 0%, 70% 0%, 85% 0%, 70% 0%, 70% 0%;
-        animation: bottomBubbles 0.6s ease-in-out forwards;
-    }
+    // .kmg-folio-btn.animate::after{
+    //     bottom: -20%;
+    //     background-image: radial-gradient(circle, #232057 20%, transparent 20%),
+    //     radial-gradient(circle, transparent 10%, #232057 15%, transparent 20%),
+    //     radial-gradient(circle, #232057 20%, transparent 20%),
+    //     radial-gradient(circle, #232057 20%, transparent 20%),
+    //     radial-gradient(circle, #232057 20%, transparent 20%),
+    //     radial-gradient(circle, #232057 20%, transparent 20%),
+    //     radial-gradient(circle, #232057 20%, transparent 20%);
+    //     background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+    //     background-position: 10% 0%, 30% 10%, 55% 0%, 70% 0%, 85% 0%, 70% 0%, 70% 0%;
+    //     animation: bottomBubbles 0.6s ease-in-out forwards;
+    // }
 
-    @keyframes bottomBubbles {
-        50% {
-            background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
-            105% 0%;
-        }
-        100%{
-            background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
-            110% 10%;
-            background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-        }
-    }
+    // @keyframes bottomBubbles {
+    //     50% {
+    //         background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+    //         105% 0%;
+    //     }
+    //     100%{
+    //         background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+    //         110% 10%;
+    //         background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    //     }
+    // }
 
 
 
-    @media screen and (max-width: 645px) {
+    // @media screen and (max-width: 645px) {
 
-        .project-1 {
-            padding-top: 4rem;
-        }
+    //     .project-1 {
+    //         padding-top: 4rem;
+    //     }
 
-        .project-1 h4 {
-            font-size: 28px;
-        }
+    //     .project-1 h4 {
+    //         font-size: 28px;
+    //     }
 
-        .projectme p br {
-            display: none;
-        }
+    //     .projectme p br {
+    //         display: none;
+    //     }
 
-        .projectme p {
-            font-size: 14px;
-        }
+    //     .projectme p {
+    //         font-size: 14px;
+    //     }
 
-        .kmg-folio-img img {
-            width: 320px;
-        }
+    //     .kmg-folio-img img {
+    //         width: 320px;
+    //     }
 
-        .kmg-folio-img-2 {
-            padding-left: 0px;
-        }
+    //     .kmg-folio-img-2 {
+    //         padding-left: 0px;
+    //     }
 
-        .kmg-folio-img-2 img {
-            width: 320px;
-        }
+    //     .kmg-folio-img-2 img {
+    //         width: 320px;
+    //     }
 
-        .reverse {
-            display: flex;
-            flex-direction: column-reverse;
-        }
+    //     .reverse {
+    //         display: flex;
+    //         flex-direction: column-reverse;
+    //     }
 
-    }
+    // }
     
 
-    @media screen and (min-width: 768px) and (max-width: 990px) {
+    // @media screen and (min-width: 768px) and (max-width: 990px) {
 
-        .project-1 {
-            padding-top: 3rem;
-        }
+    //     .project-1 {
+    //         padding-top: 3rem;
+    //     }
 
-        .project-1 h4 {
-            font-size: 28px;
-        }
+    //     .project-1 h4 {
+    //         font-size: 28px;
+    //     }
 
-        .projectme p br {
-            display: none;
-        }
+    //     .projectme p br {
+    //         display: none;
+    //     }
 
-        .projectme p {
-            font-size: 18px;
-        }
+    //     .projectme p {
+    //         font-size: 18px;
+    //     }
 
-        .kmg-folio-img img {
-            width: 600px;
-        }
+    //     .kmg-folio-img img {
+    //         width: 600px;
+    //     }
 
-        .kmg-folio-img-2 {
-            padding-left: 0px;
-        }
+    //     .kmg-folio-img-2 {
+    //         padding-left: 0px;
+    //     }
 
-        .kmg-folio-img-2 img {
-            width: 600px;
-            align-content: center;
-        }
+    //     .kmg-folio-img-2 img {
+    //         width: 600px;
+    //         align-content: center;
+    //     }
 
-        .reverse {
-            display: flex;
-            flex-direction: column-reverse;
-        }
+    //     .reverse {
+    //         display: flex;
+    //         flex-direction: column-reverse;
+    //     }
 
 
-    }
+    // }

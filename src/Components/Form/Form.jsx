@@ -23,9 +23,6 @@ const Form = () => {
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
             <div className='aboutmecont'>
-            <div>
-            <h5 className='hirem'>Hire Me For Your Next Project</h5>
-            </div>
             <h4>CONTACT ME</h4>
             <span className="line"></span>
             <div data-aos='zoom-in'>

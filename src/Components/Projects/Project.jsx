@@ -17,16 +17,16 @@ const Project = () => {
         <div className="row project-1">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
-            <div class="row">
+        <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-            <div className='projectme'>
+            <div className='aboutmecont'>
             <h4>PROJECTS</h4>
             <span className="line"></span>
-            <div data-aos='zoom-in' >
+            <div data-aos='zoom-in'>
                 <p>
-                Diverse works, personal & client projects showcased. 
-                Dive into detailed case studies revealing <br /> creative processes, 
-                challenges, & solutions for each.</p>
+                Diverse works, personal & client projects showcased.
+                Dive into detailed case studies revealing <br /> creative
+                processes, challenges, & solutions for each.</p>
             </div>
             </div>
             </div>
@@ -247,8 +247,11 @@ const Project = () => {
         </div>
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         </div>
-        
-        
+        <div>
+        <div className='hiremm-1 pt-4'>
+            <h5 className='hiremm'>Hire Me For Your Next Project</h5>
+            </div>
+        </div>
         
         </>
     )

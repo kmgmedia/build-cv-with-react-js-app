@@ -5,6 +5,8 @@ import { Heroimage } from "../../assets";
 import { Heylogo } from "../../assets";
 import { Backgroundpattern, Morufadebolaimage, Believephone } from "../../assets";
 import { FaArrowRight } from "react-icons/fa";
+import Card from '../Card/Card';
+import Resume from '../Resume/Resume';
 
 
 
@@ -189,16 +191,7 @@ const About = () => {
                                 </div>
                             </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-5">
-                        <div data-aos='fade-left' className='get-to-know-me'>
-                            <div>
-                                <div className=''>
-                                    <img src= {Morufadebolaimage} alt="" />
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -210,26 +203,43 @@ const About = () => {
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
             <div className='projectme'>
-            <h4>My Services</h4>
-            <span className="line"></span>
-            <div data-aos='zoom-in' >
+                <div>
+                    <h4>My Services</h4>
+                    <span className="line"></span>
+                </div>
+                <div className='illustration'>Illustration</div>
+            
+            </div>
+            <div data-aos='zoom-in' className='service-intro'>
                 <p>
                 Elevating your brand through expert UI/UX Design, Web <br />
                 Development, and Mobile App Creation.</p>
             </div>
+
+
+            {/* Beginning of Card session for type of skills */}
+
+
+                
+            {/* Beginning of Card session for type of skills */}
             </div>
             </div>
-            </div>
+            
         </div>
+        
+        
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        
         </div>
 
+        
+        <Card/>
 
-
-    
-
+        <Resume/>
     </>
+    
     )
 }
+
 
 export default About

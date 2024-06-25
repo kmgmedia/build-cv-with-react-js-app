@@ -127,7 +127,70 @@ $secondery-color: #232057;
     backdrop-filter: blur(10px);
     display: inline-block;
     font-family: poppins;
-    padding: 1% 4%;
+    padding: 1% 1%;
+}
+
+@media (min-width: 576px) {
+    .st-btn {
+        border-radius: 40px;
+        /* display: flex; */
+        border: 2px solid hsla(0, 0%, 44%, 0.137);
+        background: linear-gradient(180deg, #73737318 0%, #70707017 100%);
+        backdrop-filter: blur(10px);
+        display: inline-block;
+        font-family: poppins;
+        padding: 1% 4%;
+    }
+
+    .hireme {
+        color: $secondery-color;
+        // background: rgba(248, 153, 29, 0.50);
+        font-family: poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 30px;
+        border: 1px solid #B8B7B7;
+        width: 139px;
+        // padding: 14px 25px;
+        margin-left: 3rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hireme:hover {
+        background-color: $primary-color;
+        width: 100px;
+        color:#ffffff;
+        transition-duration: 1ms;
+    }
+    
+    
+    .portfolio  {
+        color: $secondery-color;
+        background: rgba(248, 153, 29, 0.50);
+        font-family: poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 30px;
+        border: 1px solid #B8B7B7;
+        width: 139px;
+        // padding: 14px 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .portfolio:hover {
+        background-color: $primary-color;
+        width: 100px;
+        color:#ffffff;
+        transition-duration: 1ms;
+    }
+    
+    
 }
 
 
@@ -647,6 +710,8 @@ margin-bottom: 1rem;
         padding-bottom: 70%;
     }
 
+    
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1320px) {
@@ -657,6 +722,7 @@ margin-bottom: 1rem;
         font-family: poppins;
     } 
 
+    
     .top-container{
         /* padding-top: 200px; */
         padding-top: 120px;
@@ -717,6 +783,8 @@ margin-bottom: 1rem;
         align-items: center;
         height: 100vh; /* Set the container height to 100% of the viewport height */
     }
+
+    
 }
 // @media screen and (min-width: 1280px) and (max-width: 800px) {
 
