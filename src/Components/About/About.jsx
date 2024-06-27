@@ -118,17 +118,16 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-            <div className='experience'>
-            <h4>Hire Me For Your Next Project</h4>
-            </div>
             </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
-
-
-
+        <div>
+            <div className='hiremm-2 pb-5'>
+                <h5 className='hiremm2'>Hire Me For Your Next Project</h5>
+            </div>
+        </div>
 
 
     <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -215,31 +214,21 @@ const About = () => {
                 Elevating your brand through expert UI/UX Design, Web <br />
                 Development, and Mobile App Creation.</p>
             </div>
-
-
-            {/* Beginning of Card session for type of skills */}
-
-
-                
-            {/* Beginning of Card session for type of skills */}
             </div>
             </div>
-            
         </div>
-        
-        
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        
         </div>
-
-        
+        <div className='pb-2'>
         <Card/>
-
+        </div>
+        <div className='pb-5'>
         <Resume/>
+        </div>
+        
     </>
     
     )
 }
-
 
 export default About

@@ -40,7 +40,7 @@ const Form = () => {
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row hold-background">
             <div class="col-sm-12 col-md-12 col-lg-6">
-            <div data-aos='fade-right' className='get-to-know-me get-well'>
+            <div data-aos='fade-right' className='contacts-me get-well'>
             <h5>Get in touch</h5>
             <div><i class="fa-solid fa-square-phone"></i>
                 <p>

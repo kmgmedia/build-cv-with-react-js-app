@@ -5,8 +5,8 @@ import { FaLinkedin, FaBehance, FaGithub } from "react-icons/fa";
 const Footer = () => {
     return (
     <>
-    <div className="row footers">
-    <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div className="row footers">
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
             <div class="col-sm-12 col-md-12 col-lg-10">
                 <div className="row footer-bold-text">
                     <div data-aos='fade-right' data-aos-delay="200" class="col-sm-12 col-md-12 col-lg-5">
@@ -45,8 +45,7 @@ const Footer = () => {
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
                 </div>
                 </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-
+                <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
     
     

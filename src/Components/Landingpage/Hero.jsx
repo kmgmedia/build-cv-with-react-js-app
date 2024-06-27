@@ -18,7 +18,7 @@ const Hero = () => {
     return (
         <div className='hero-section' style={{ backgroundImage: `url(${Backgroundpattern})` }}>
         <div className="container-fluid">
-            <div className="row top-container">
+            <div className="row top">
             <div className="col-lg-1"></div>
             <div className="col-lg-10">
                 <div className="row">

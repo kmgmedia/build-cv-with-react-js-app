@@ -27,6 +27,12 @@ export const Graphicdesign = require ('./Graphicdesign.png')
 export const Teacherpointingfinger = require ('./Teacherpointingfinger.png')
 export const Maskgroup = require ('./Maskgroup.png')
 export const bag = require ('./bag.png')
+export const kmgbigg = require ('./kmgbigg.png')
+export const kmgphones = require ('./kmgphones.png')
+export const kmgphones2 = require ('./kmgphones2.png')
+
+
+
 
 
 

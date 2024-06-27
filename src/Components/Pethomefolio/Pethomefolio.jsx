@@ -34,7 +34,7 @@ const Pethomefolio = () => {
                     <div class="col-sm-12 col-md-12 col-lg-10">
                     <div class="nexvent-body">
                     <div className='nex-big-img'>
-                    <img src= {Phonepethomebig} alt="" />
+                    <img src= {Phonepethomebig} alt="" className="img-fluid" />
                     </div>
                     </div>
                     </div>

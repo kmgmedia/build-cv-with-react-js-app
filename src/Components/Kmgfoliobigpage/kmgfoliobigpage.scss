@@ -17,6 +17,9 @@ $primary-color: #F8991D;
 $secondery-color: #232057;
 $secondery-color-2: #272829;
 $semi-secondery-color: #e2e2e2;
+$portfoliobg: #7752FE;
+$portfoliobg2: #FFF0CE;
+
 
 
 
@@ -195,5 +198,156 @@ box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
         margin-right: 2rem;
         background: $secondery-color;
         box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
-        }
+    }
 
+    .overall-container {
+        background-color: #232057;
+        width: 100% !important;
+        left: 0;
+        right: 0;
+        padding: 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .overall-container h3 {
+        padding-bottom: 0px;
+        
+    }
+    
+    .get-to-know-me {
+        color: #fff !important;
+        
+    }
+
+    .get-to-know-me p{
+        color: #fff !important;
+
+    }
+
+    .get-to-know-me2 {
+        color: #fff !important;
+        border-left: 2px solid #fff;
+        height: 100%;
+        
+        
+    }
+
+    .description{
+        padding-left: 20px;
+    }
+
+    .get-to-know-me2 p{
+        color: #fff !important;
+        
+        
+    }
+
+    .heading {
+        color: #fff;
+        padding-left: 100px;
+        // text-align: center;
+    }
+    
+    
+    
+    
+    .header {
+        padding-left: 10px;
+        padding-bottom: 30px;
+    }
+
+    .header2 {
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .footers {
+        background-color:#232057;
+        color: #FFFFFF;
+        height: 100%;
+        padding: 55px 189px;
+    }
+
+    .footers2 {
+        background-color: $portfoliobg;
+        color: #FFFFFF;
+        height: 100%;
+        padding: 55px 189px;
+    }
+
+    .footers3 {
+        background-color: $portfoliobg2;
+        color: $secondery-color;
+        height: 100%;
+        padding: 55px 189px;
+    }
+
+    .footers4{
+        background-color: $secondery-color;
+        color: #FFFFFF;
+        height: 100%;
+        padding: 55px 189px;
+    }
+
+
+
+    // .overall-container2 {
+    //     background-color: $portfoliobg;
+    //     width: 100% !important;
+    //     left: 0;
+    //     right: 0;
+    //     padding: 0px 0px;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+        
+    // }
+    
+    .portfolio-bgs, .portfolio-bgs4, .portfolio-bgs2 {
+        background-color:#232057;
+        height: 100%;
+        padding: 55px 189px;
+    }
+
+    .portfolio-bgs {
+        background-color: $portfoliobg2;
+    }
+
+    
+
+    .portfolio-bgs3 {
+        background-color: #7752FE;
+    }
+
+    
+    .bbtn1 {
+        margin-right: 10px;
+        
+    }
+
+    .bold-text {
+        font-weight: 600;
+    }
+
+    .skills {
+        padding: 6px 8px;
+        background-color: #fdfdfd25;
+        display: inline;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    .skills-container{
+        gap: 50px;
+        padding-top: 25px;
+    }
+
+
+
+
+    
+    
+    
+    

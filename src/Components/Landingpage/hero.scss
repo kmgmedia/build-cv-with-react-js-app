@@ -37,6 +37,7 @@ $secondery-color: #232057;
 }
 
 
+
 .hero-text h1 {
     color: $secondery-color;
     font-family: poppins;
@@ -130,76 +131,71 @@ $secondery-color: #232057;
     padding: 1% 1%;
 }
 
-@media (min-width: 576px) {
-    .st-btn {
-        border-radius: 40px;
-        /* display: flex; */
-        border: 2px solid hsla(0, 0%, 44%, 0.137);
-        background: linear-gradient(180deg, #73737318 0%, #70707017 100%);
-        backdrop-filter: blur(10px);
-        display: inline-block;
-        font-family: poppins;
-        padding: 1% 4%;
-    }
+// @media (min-width: 576px) {
+//     .st-btn {
+//         border-radius: 40px;
+//         /* display: flex; */
+//         border: 2px solid hsla(0, 0%, 44%, 0.137);
+//         background: linear-gradient(180deg, #73737318 0%, #70707017 100%);
+//         backdrop-filter: blur(10px);
+//         display: inline-block;
+//         font-family: poppins;
+//         padding: 1% 4%;
+//     }
 
-    .hireme {
-        color: $secondery-color;
-        // background: rgba(248, 153, 29, 0.50);
-        font-family: poppins;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        border-radius: 30px;
-        border: 1px solid #B8B7B7;
-        width: 139px;
-        // padding: 14px 25px;
-        margin-left: 3rem;
-        justify-content: center;
-        align-items: center;
-    }
+//     .hireme {
+//         color: $secondery-color;
+//         // background: rgba(248, 153, 29, 0.50);
+//         font-family: poppins;
+//         font-size: 20px;
+//         font-style: normal;
+//         font-weight: 600;
+//         line-height: normal;
+//         border-radius: 30px;
+//         border: 1px solid #B8B7B7;
+//         width: 139px;
+//         // padding: 14px 25px;
+//         margin-left: 3rem;
+//         justify-content: center;
+//         align-items: center;
+//     }
     
-    .hireme:hover {
-        background-color: $primary-color;
-        width: 100px;
-        color:#ffffff;
-        transition-duration: 1ms;
-    }
-    
-    
-    .portfolio  {
-        color: $secondery-color;
-        background: rgba(248, 153, 29, 0.50);
-        font-family: poppins;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        border-radius: 30px;
-        border: 1px solid #B8B7B7;
-        width: 139px;
-        // padding: 14px 25px;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .portfolio:hover {
-        background-color: $primary-color;
-        width: 100px;
-        color:#ffffff;
-        transition-duration: 1ms;
-    }
+//     .hireme:hover {
+//         background-color: $primary-color;
+//         width: 100px;
+//         color:#ffffff;
+//         transition-duration: 1ms;
+//     }
     
     
-}
+//     .portfolio  {
+//         color: $secondery-color;
+//         background: rgba(248, 153, 29, 0.50);
+//         font-family: poppins;
+//         font-size: 20px;
+//         font-style: normal;
+//         font-weight: 600;
+//         line-height: normal;
+//         border-radius: 30px;
+//         border: 1px solid #B8B7B7;
+//         width: 139px;
+//         // padding: 14px 25px;
+//         justify-content: center;
+//         align-items: center;
+//     }
+    
+//     .portfolio:hover {
+//         background-color: $primary-color;
+//         width: 100px;
+//         color:#ffffff;
+//         transition-duration: 1ms;
+//     }
+    
+    
+// }
 
 
-.hero-img1 img{
-    width: 115%;
-    height: 100%;
-    padding-top: 80px;
-    object-fit: contain;
-}
+
 
 .hireme {
     color: $secondery-color;
@@ -320,15 +316,26 @@ margin-bottom: 1rem;
     padding-top: 3rem;
 }
 
-.top-container{
+.top{
     
-    padding-bottom: 0px;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center;
-    height: 100vh; /* Set the container height to 100% of the viewport height */
+    padding-top: 20px;
+    padding-top: 0px;
 }
+.hero-img1 img{
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    object-fit: contain;
+}
+/* Media query for medium screens and upwards */
+@media (min-width: 768px) {
+    .top{
+    
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+}
+
 
 .custom-container {
     /* padding-right: 5px;
@@ -707,7 +714,7 @@ margin-bottom: 1rem;
     }
 
     .hero-img1{
-        padding-bottom: 70%;
+        padding-bottom: 50px;
     }
 
     

@@ -15,10 +15,8 @@ return (
                         <img src={Teacherpointingfinger} alt="" srcset="" />
                         <img src={bag} alt="" srcset="" />
                     </h1>
-                    
-                    
                     <div className='resumeBtn'>
-                        <button>Learn More  <FaArrowRight/></button>
+                        <button>Learn More    <FaArrowRight/></button>
                     </div>
                 </div>
                 <div className='illustration2'><img src={Maskgroup} alt="" srcset="" /></div>

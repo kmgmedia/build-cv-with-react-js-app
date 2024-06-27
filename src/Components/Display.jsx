@@ -20,13 +20,14 @@ import Footer from './Footer/Footer';
         <React.Fragment>
             <BrowserRouter>
             <Navbar />
-            {/* <About /> */}
+            {/* <Kmgfoliobigpage/> */}
+            {/* <Pethomefolio /> */}
 
 
 
             <Hero />
             <Projects />
-            <Form />
+            <Form />   
             <Footer />
 
             <Routes>

@@ -131,10 +131,8 @@ const Project = () => {
                     </p>
                 </div>
                 <div className='conta'>
-                 <Button />
-                {/* <button className='kmg-folio-btn'
-                onClick={handleClick}>Case Study</button> */}
-            </div>
+                    <Button />
+                </div>
             </div>
             </div>
             
@@ -214,8 +212,8 @@ const Project = () => {
         </div>
 
         <div className="row project-1">
-        <div class="col-sm-12 col-md-12 col-lg-2"></div>
-        <div class="col-sm-12 col-md-12 col-lg-8">
+        <div class="col-sm-12 col-md-12 col-lg-2 "></div>
+        <div class="col-sm-12 col-md-12 col-lg-8 ">
             <div data-aos='fade-up' data-aos-duration="100" class="row reverse">
             <div class="col-sm-12 col-md-12 col-lg-5">
                 <div className='kmg-folio-text-1 pt-5'>
@@ -248,9 +246,9 @@ const Project = () => {
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
         </div>
         <div>
-        <div className='hiremm-1 pt-4'>
+        <div className='hiremm-1 pt-4 pb-2'>
             <h5 className='hiremm'>Hire Me For Your Next Project</h5>
-            </div>
+        </div>
         </div>
         
         </>

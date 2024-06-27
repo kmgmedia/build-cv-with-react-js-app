@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
+@font-face {
+    font-family: poppins, Arial Helvetica sans-serif sans-serif sans-serif, ;
+    src: url();
+}
+
+@font-face {
+    font-family: ('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+}
 
 $font-stack: Arial, Helvetica, sans-serif;
 $primary-color: #F8991D;
@@ -14,19 +24,6 @@ $secondery-color-2: #272829;
     width: 1200px;
 }
 
-.hirem {
-    font-family: $font-stack;
-    color: $secondery-color;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: center;
-}
-
-.hirem {
-    background-color: $primary-color;
-}
-
 
 .hold-background {
     padding-bottom: 3rem;
@@ -34,6 +31,27 @@ $secondery-color-2: #272829;
     border-radius: 20px;
     border: 2px solid #f8991d99;
     box-shadow: 0px 15px 25px -4px rgba(150, 150, 150, 0.24)
+}
+
+
+.contacts-me h5 {
+    color: $secondery-color-2;
+font-family: $font-stack;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 25px;
+padding-top: 30px;
+}
+
+.contacts-me p {
+    color: var(--grey-500, #5B5151);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .get-well {
@@ -53,7 +71,7 @@ $secondery-color-2: #272829;
 }
 
 .aboutmecont p {
-    color: $secondery-color-2;
+    color: $secondery-color;
 text-align: center;
 font-family: Poppins;
 font-size: 18px;
@@ -80,14 +98,18 @@ padding-top: 35px;
     padding-right: 3rem;
 }
 
-
 .call-number {
     padding-top: 5rem;
 }
 
+.call-number h4 {
+    color: #232057;
+}
+
 .email-envelop h4 {
-    font-size: 20px;
+    font-size: 24px;
     padding-bottom: 2rem;
+    color: $secondery-color;
 }
 
 .bbtn2 {
