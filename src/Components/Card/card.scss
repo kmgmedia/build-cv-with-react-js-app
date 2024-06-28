@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
-    font-family: poppins, Arial Helvetica sans-serif sans-serif sans-serif, ;
+    font-family: 'poppins', Arial Helvetica sans-serif sans-serif sans-serif, ;
     src: url();
 }
 
@@ -11,7 +11,7 @@
 }
 
 
-$font-stack: Arial, Helvetica, sans-serif;
+$font-stack: poppins, Helvetica, sans-serif;
 $primary-color: #F8991D;
 $secondery-color: #232057;
 $secondery-color-2: #272829;
@@ -22,6 +22,7 @@ $semi-secondery-color: #e2e2e2;
 .card-container .card {
     margin: 0px; /* Adjust the margin as needed */
 }
+
 
 .small-card {
     box-shadow: 2px -2px 25px -1px rgba(150, 150, 150, 0.4)

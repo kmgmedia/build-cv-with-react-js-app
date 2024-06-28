@@ -34,14 +34,22 @@ $line-active-color: #434343;
     
 }
 
-.bg-all {
+// .bg-all {
+//     position: relative;
+//     z-index: 1; /* Ensure the blur background is below the content */
+// }
 
+
+
+.bg-all{
+    backdrop-filter: blur(15px);
     padding: 0px 20px;
     flex-direction: column;
     align-items: flex-start;
     border-radius: 20px;
     border: 1px solid rgba(248, 153, 29, 0.60);
     background: linear-gradient(180deg, rgba(248, 153, 29, 0.60) 0%, rgba(248, 153, 29, 0.35) 100%);
+//     // background: #fff;
     backdrop-filter: blur(10px);
 
 }
@@ -90,6 +98,7 @@ $line-active-color: #434343;
 
 .nav-item-2 {
     color: $line-active-color;
+    // color: #fff;
     display: flex;
     font-size: 20px;
     font-family: poppins;

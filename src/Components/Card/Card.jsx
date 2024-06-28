@@ -5,7 +5,7 @@ import './card.scss';
 const Card = () => {
 return (
         <div className="container">
-        <div className="row row-cols-2 row-cols-md-3  gy-5 justify-content-center">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5 justify-content-center overall-text">
         <div className="col">
             <div className=" h-100 small-card">
             <img src={UIUXdesign} className="card-img-top img-original-size pt-4" alt="Skyscrapers" />

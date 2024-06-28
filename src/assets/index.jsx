@@ -30,11 +30,9 @@ export const bag = require ('./bag.png')
 export const kmgbigg = require ('./kmgbigg.png')
 export const kmgphones = require ('./kmgphones.png')
 export const kmgphones2 = require ('./kmgphones2.png')
-
-
-
-
-
+export const Believeimage = require ('./Believeimage.png')
+export const sickbulkimg = require ('./sickbulkimg.png')
+export const sicklepcimg = require ('./sicklepcimg.png')
 
 
 

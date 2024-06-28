@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './about.scss';
 import { Heroimage } from "../../assets";
 import { Heylogo } from "../../assets";
-import { Backgroundpattern, Morufadebolaimage, Believephone } from "../../assets";
+import { Backgroundpattern, Morufadebolaimage, Believephone, Believeimage } from "../../assets";
 import { FaArrowRight } from "react-icons/fa";
 import Card from '../Card/Card';
 import Resume from '../Resume/Resume';
@@ -20,7 +20,7 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div className='aboutme'>
+                    <div className='aboutme2'>
                         <h4>ABOUT ME</h4>
                         <span className="line"></span>
                         <div data-aos='zoom-in'>
@@ -38,7 +38,7 @@ const About = () => {
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-7">
-            <div data-aos='fade-right' className='get-to-know-me'>
+            <div data-aos='fade-right' className='get-to-knowme-text'>
             <h5>Get to know me!</h5>
             <div>
                 <p>
@@ -59,7 +59,7 @@ const About = () => {
             </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-5">
-            <div data-aos='fade-left' className='get-to-know-me'>
+            <div data-aos='fade-left' className='skills-text'>
             <h5>My Skills</h5>
             <div className='skills-list'>
                 <p className='skills-list-1'>Figma</p>
@@ -79,7 +79,7 @@ const About = () => {
             </div>
             </div>
 
-            <div data-aos='fade-left' className='get-to-know-me'>
+            <div data-aos='fade-left' className='skills-text'>
             <h5>Other Skills</h5>
             <div className='skills-list'>
                 <p className='skills-list-1'>JavaScript</p>
@@ -136,7 +136,7 @@ const About = () => {
             <div class="col-sm-12 col-md-12 col-lg-10">
                 <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
-                    <div data-aos='fade-right' className='get-to-know-me pt-4'>
+                    <div data-aos='fade-right' className='get-to-knowme-text pt-4'>
                         <p>
                         <span className='more-bold-body'>💛  Passion is everything.</span> <br />
                         I found that because I enjoy what I do, I have the drive and initiative
@@ -164,9 +164,9 @@ const About = () => {
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5">
-                    <div data-aos='fade-left' className='get-to-know-me'>
+                    <div data-aos='fade-left' className=''>
                         <div>
-                            <div className=''>
+                            <div className='knowimg'>
                                 <img src= {Morufadebolaimage} alt="" />
                             </div>
                         </div>
@@ -182,17 +182,30 @@ const About = () => {
         <div className="row pt-5">
             <div class="col-sm-12 col-md-12 col-lg-1"></div>
                 <div class="col-sm-12 col-md-12 col-lg-10">
-                    <div class="row">
+                    <div class="row believe-group">
                     <div class="col-sm-12 col-md-12 col-lg-6">
                             <div>
-                                <div className=''>
+                                <div className='knowimg2'>
                                     <img src= {Believephone} alt="" />
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div>
+                                <div className='knowimg2'>
+                                    <img src= {Believeimage} alt="" />
                                 </div>
                             </div>
                     </div>
                     
                 </div>
+
+                
             </div>
+
+            
+            
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
     </div>
 
@@ -206,12 +219,12 @@ const About = () => {
                     <h4>My Services</h4>
                     <span className="line"></span>
                 </div>
-                <div className='illustration'>Illustration</div>
+                {/* <div className='illustration'>Illustration</div> */}
             
             </div>
             <div data-aos='zoom-in' className='service-intro'>
                 <p>
-                Elevating your brand through expert UI/UX Design, Web <br />
+                Elevating your brand through expert UI/UX Design, Web <br/>
                 Development, and Mobile App Creation.</p>
             </div>
             </div>

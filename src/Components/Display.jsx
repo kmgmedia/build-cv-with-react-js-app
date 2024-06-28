@@ -21,20 +21,26 @@ import Footer from './Footer/Footer';
             <BrowserRouter>
             <Navbar />
             {/* <Kmgfoliobigpage/> */}
+            <Sicklefolio/>
+            {/* <About/> */}
+            {/* <Projects/> */}
+
+            {/* <Bycfolio/> */}
+            {/* <Kmgfoliobigpage/> */}
             {/* <Pethomefolio /> */}
 
 
 
-            <Hero />
+            {/* <Hero />
             <Projects />
-            <Form />   
+            <Form /> */}
             <Footer />
 
             <Routes>
                 <Route Link='About' element={<About />}/>
                 {/* <Route path='Form' element={<Form />}/> */}
                 {/* <Route index element={<Footer />}/> */}
-                
+
             </Routes>
             </BrowserRouter>
         </React.Fragment>

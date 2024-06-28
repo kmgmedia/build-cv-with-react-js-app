@@ -4,11 +4,11 @@ import { Macpckmgfoliobig, Backgroundpattern,kmgbigg, kmgphones, kmgphones2 } fr
 
 
 const Kmgfoliobigpage = () => {
-    
+
     return (
-    
+
     <>
-    
+
         <div className="row about-big-1" style={{backgroundImage: `url(${Backgroundpattern})`}}>
             <div class="col-sm-12 col-md-12 col-lg-2"></div>
                 <div class="col-sm-12 col-md-12 col-lg-10">
@@ -18,7 +18,7 @@ const Kmgfoliobigpage = () => {
                     <h2>Kmgfolio</h2>
                     <div>
                         <p>
-                        This page contains the case study of Kmgfolio 
+                        This page contains the case study of Kmgfolio
                         Project which includes the Project Overview, <br />
                         Tools Used and Live Links to the official product.</p>
                     </div>
@@ -53,11 +53,11 @@ const Kmgfoliobigpage = () => {
                 <div className='header'><h3>Project Overview:</h3></div>
                 <div className="row overall-container">
                     <div data-aos='fade-right' data-aos-delay="200" class="col-sm-12 col-md-12 col-lg-7">
-                        
+
                     <p>
                     Kmgfolio stands as a testament to my creative drive and technical prowess.
                     This project is the culmination of my efforts to design and develop a versatile,
-                    visually appealing, and high-performance multi-stage portfolio. 
+                    visually appealing, and high-performance multi-stage portfolio.
                     </p>
                     <p>
                     It reflects my
@@ -121,7 +121,7 @@ const Kmgfoliobigpage = () => {
                 <div className='header'><h3>Some Final Designs:</h3></div>
                 <div className="row overall-container2">
                     <div data-aos='fade-right' data-aos-delay="200" class="col-sm-12 col-md-12 col-lg-7">
-                        
+
                     <p>
                     The primary objective behind Kmgfolio was to develop a platform that enables the rapid
                     creation of professional portfolios. Recognizing the need for a solution that is both
@@ -136,10 +136,6 @@ const Kmgfoliobigpage = () => {
                     </p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
-                    <div  class="col-sm-12 col-md-12 col-lg-4 get-to-know-me2">
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-1"></div>
-                    <div class="col-sm-12 col-md-12 col-lg-1"></div>
                 </div>
                 </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -149,7 +145,7 @@ const Kmgfoliobigpage = () => {
     <div className="row portfolio-bgs">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-12">
-        <div className="row">
+        <div className="row full-width-image-container">
             <img src= {kmgbigg} alt="" className='full-width-image'/>
         </div>
         </div>
@@ -159,7 +155,7 @@ const Kmgfoliobigpage = () => {
     <div className="row portfolio-bgs2">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-12">
-        <div className="row">
+        <div className="row full-width-image-container">
             <img src= {kmgphones} alt="" className='full-width-image' />
         </div>
         </div>
@@ -194,7 +190,7 @@ const Kmgfoliobigpage = () => {
                 <div className='header'><h3>Market Research for Portfolio Development</h3></div>
                 <div className="row overall-container">
                     <div data-aos='fade-right' data-aos-delay="200" class="col-sm-12 col-md-12 col-lg-7">
-                        
+
                     <p>
                     In today's competitive job market, having a standout portfolio is crucial for catching
                     the attention of employers and stakeholders. To ensure my portfolio,  I effectively
@@ -208,7 +204,7 @@ const Kmgfoliobigpage = () => {
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
                     <div  class="col-sm-12 col-md-12 col-lg-4 get-to-know-me2">
-                    
+
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -224,19 +220,19 @@ const Kmgfoliobigpage = () => {
                 <div className='header2'><h3>Key Insights</h3></div>
                 <div className="row overall-container3">
                     <div data-aos='fade-right' data-aos-delay="200" class="col-sm-12 col-md-12 col-lg-7">
-                        
+
                     <p>
                     <span className='bold-text'>1. Identified Target Audience:</span> Clearly defined the demographic and professional characteristics
                     of the audience most likely to engage with the portfolio.
                     </p>
                     <p>
                     <span className='bold-text'>2. Highlighted Competitive Advantages:</span> Identified unique strengths and attributes that
-                    set my portfolio apart from competitors in the field. 
+                    set my portfolio apart from competitors in the field.
                     </p>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
                     <div  class="col-sm-12 col-md-12 col-lg-4 get-to-know-me2">
-                    
+
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -252,7 +248,7 @@ const Kmgfoliobigpage = () => {
                 <div className='header2'><h3>Competitive Analysis</h3></div>
                 <div className="row overall-container2">
                     <div data-aos='fade-right' data-aos-delay="200" class="col-sm-12 col-md-12 col-lg-7">
-                        
+
                     <p>
                     <span className='bold-text'>Highlight My Unique Style and Expertise: </span>I showcase my distinctive design aesthetic
                     or technical skills that make my portfolio stand out. I emphasize how my creative
@@ -267,7 +263,7 @@ const Kmgfoliobigpage = () => {
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
                     <div  class="col-sm-12 col-md-12 col-lg-4 get-to-know-me2">
-                    
+
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -278,7 +274,7 @@ const Kmgfoliobigpage = () => {
         </div>
 
 
-        <div className="row portfolio-bgs4">
+        <div className="row portfolio-bgs2">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-12">
         <div className="row full-width-image-container">
@@ -291,7 +287,7 @@ const Kmgfoliobigpage = () => {
         <div className="row portfolio-bgs">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-12">
-        
+
         <div className="row full-width-image-container">
             <img src= {kmgbigg} alt="" className='full-width-image'/>
         </div>
@@ -299,14 +295,14 @@ const Kmgfoliobigpage = () => {
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
     </div>
 
-        
+
         <div className="row footers2">
     <div class="col-sm-12 col-md-12 col-lg-1"></div>
             <div class="col-sm-12 col-md-12 col-lg-10">
                 <div className='header2'><h3>Key Lessons Learned</h3></div>
                 <div className="row overall-container2">
                     <div data-aos='fade-right' data-aos-delay="200" class="col-sm-12 col-md-12 col-lg-7">
-                        
+
                     <p>
                     <span className='bold-text'>1. Value of In-Depth Research:</span> Working on this project reinforced the importance of thorough
                     research. I realized how crucial it is for making informed decisions that align with the
@@ -327,7 +323,7 @@ const Kmgfoliobigpage = () => {
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
                     <div  class="col-sm-12 col-md-12 col-lg-4 get-to-know-me2">
-                    
+
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -353,16 +349,16 @@ const Kmgfoliobigpage = () => {
 
 
         <div className="row">
-        <div class="col-sm-12 col-md-12 col-lg-4"></div>
-        <div class="col-sm-12 col-md-12 col-lg-8">
+        <div class="col-sm-12 col-md-12 col-lg-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-7">
                     <div className='folio-session '>
                         <div className='folio-text'>
-                            <h5>See Full</h5>
+                            <h5>See Live</h5>
                         </div>
                         <div className='btnn-111'>
-                            <button className='btnn1'>Full CaseStudy</button>
+                            <button className='btnn1'>Live Link</button>
                             <button className='btnn-2'>Go Back</button>
                         </div>
                     </div>
@@ -370,7 +366,6 @@ const Kmgfoliobigpage = () => {
             </div>
         </div>
         </div>
-
         <div class="col-sm-12 col-md-12 col-lg-2"></div>
     </>
 

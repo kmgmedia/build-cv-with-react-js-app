@@ -59,3 +59,43 @@ $semi-secondery-color: #e2e2e2;
     font-size: 18px;
     font-weight: bold;
 }
+
+@media (max-width: 992px) {
+    .container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .bigText{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        
+    }
+
+    .bigText br{
+        display: flexbox;
+    }
+
+    .illustration1 {
+        display: none;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    
+    .illustration2 {
+        display: none;
+        padding-top: 0px;
+    }
+    .resume-text {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: inline;
+    }
+
+    .resume-text img{
+        width: 50px;
+    }
+}
