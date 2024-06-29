@@ -21,7 +21,7 @@ import Footer from './Footer/Footer';
             <BrowserRouter>
             <Navbar />
             {/* <Kmgfoliobigpage/> */}
-            <Sicklefolio/>
+            {/* <Sicklefolio/> */}
             {/* <About/> */}
             {/* <Projects/> */}
 
@@ -31,9 +31,9 @@ import Footer from './Footer/Footer';
 
 
 
-            {/* <Hero />
+            <Hero />
             <Projects />
-            <Form /> */}
+            <Form />
             <Footer />
 
             <Routes>
