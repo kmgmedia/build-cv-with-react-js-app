@@ -32,9 +32,8 @@ const Hero = () => {
                     </div>
 
                     <div data-aos="zoom-in" className='hero-p'>
-                    <p>A product designer with years of experience, currently <br />
-                        shaping in coding the future, building digital worlds products <br />
-                        within energetic and dynamic cross-functional settings.
+                    <p>Specialized in designing modern apps and websites for <br />
+                    startups with a refined sense of style and innovation. <br />
                     </p>
                     </div>
                     <div className='st-btn'>

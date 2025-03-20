@@ -32,46 +32,39 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
 
                     <ul className="navbar-nav flex-grow-1 justify-content-end">
-                            {/* set useState styling=nav-item-1 if each links onClick set 'active' else remove active  */}
-                                <li className={`nav-item-1 ${activeLink === 'Home' ? 'active' : ''}`}>
-                                    <Link className='link' to="/" onClick={() => handleLinkClick('Home')}>Home</Link>
-                                </li>
-                                <li className={`nav-item-1 ${activeLink === 'About' ? 'active' : ''}`}>
-                                    <Link className='link' to="/About" onClick={() => handleLinkClick('About')}>About</Link>
-                                </li>
-                                <li className={`nav-item-1 ${activeLink === '{Projects}' ? 'active' : ''}`}>
-                                    <Link className='link' to="/Projects" onClick={() => handleLinkClick('Projects')}>Projects</Link>
-                                </li>
-                                {/* <li className={`nav-item-1 ${activeLink === 'Form' ? 'active' : ''}`}>
-                                    <Link className='link' to="/Form" onClick={() => handleLinkClick('Form')}>Download CV</Link>
-                                </li> */}
-                                {/* <li className={`nav-item-1 ${activeLink === 'Footer' ? 'active' : ''}`}>
-                                    <Link className='link' to="/Footer" onClick={() => handleLinkClick('Footer')}>Contact</Link>
-                                </li> */}
-                                <div>
-                                    <span className='nav-item-2'>Resume</span>
-                                </div>
-                                <div>
-                                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDDDfxMsltMgwtRvxjdxMJZrPWSRcnTzbqrkFbJgWDBDKTPVfvsVRbpRlTxhhkxJCNBDvf">
+                                {/* set useState styling=nav-item-1 if each links onClick set 'active' else remove active  */}
+                                    <li className={`nav-item-1 ${activeLink === 'Home' ? 'active' : ''}`}>
+                                        <Link className='link' to="/" onClick={() => handleLinkClick('Home')}>Home</Link>
+                                    </li>
+                                    <li className={`nav-item-1 ${activeLink === 'About' ? 'active' : ''}`}>
+                                        <Link className='link' to="/About" onClick={() => handleLinkClick('About')}>About</Link>
+                                    </li>
+                                    <li className={`nav-item-1 ${activeLink === '{Projects}' ? 'active' : ''}`}>
+                                        <Link className='link' to="/Projects" onClick={() => handleLinkClick('Projects')}>Projects</Link>
+                                    </li>
+                                    {/* <li className={`nav-item-1 ${activeLink === 'Form' ? 'active' : ''}`}>
+                                        <Link className='link' to="/Form" onClick={() => handleLinkClick('Form')}>Download CV</Link>
+                                    </li> */}
+                                    {/* <li className={`nav-item-1 ${activeLink === 'Footer' ? 'active' : ''}`}>
+                                        <Link className='link' to="/Footer" onClick={() => handleLinkClick('Footer')}>Contact</Link>
+                                    </li> */}
+                                    <div>
+                                        <span className='nav-item-2'>Resume</span>
+                                    </div>
+                                    <div>
+                                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDDDfxMsltMgwtRvxjdxMJZrPWSRcnTzbqrkFbJgWDBDKTPVfvsVRbpRlTxhhkxJCNBDvf">
+                                            <button className='nav-btn'>Let's talk <FaArrowRight size={15}/></button>
+                                        </a>
                                         
-
-                                        <button className='nav-btn'>Let's talk <FaArrowRight size={15}/></button>
-                                    </a>
-                                    
-                                </div>
+                                    </div>
                     </ul>
                     
                 </div>
             </div>
             </nav>
             </div>
-        
         </div>
-        
-        
-        
-        
-        
+
         </>
         
         

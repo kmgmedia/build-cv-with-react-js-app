@@ -29,8 +29,6 @@ import Footer from './Footer/Footer';
             {/* <Kmgfoliobigpage/> */}
             {/* <Pethomefolio /> */}
 
-
-
             <Hero />
             <Projects />
             <Form />

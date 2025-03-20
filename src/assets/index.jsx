@@ -36,6 +36,3 @@ export const sicklepcimg = require ('./sicklepcimg.png')
 
 
 
-
-
-

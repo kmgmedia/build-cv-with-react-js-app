@@ -107,6 +107,8 @@ const Kmgfoliobigpage = () => {
 
         </div>
 
+        //! Do something, I just tried this comment way out. This is a new way to comment
+
     {/* <div className="row footers2">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
             <div class="col-sm-12 col-md-12 col-lg-10">
