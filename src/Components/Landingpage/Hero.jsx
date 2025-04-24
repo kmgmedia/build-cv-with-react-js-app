@@ -27,13 +27,13 @@ const Hero = () => {
                     <img data-aos='zoom-in-down' src={Heylogo} alt="" />
                     </div>
                     <div className='hero-text'>
-                    <h1>I’m <span className='minename b1'>Moruf</span>
-                        <span className='minename b2'>Adebola,</span> <br />Product Designer</h1>
+                    <h1>Bringing Your <span className='minename b1'>Vision</span>
+                        <span className='minename b2'>Identity,</span> <br />to Life Through Design</h1>
                     </div>
 
                     <div data-aos="zoom-in" className='hero-p'>
-                    <p>Specialized in designing modern apps and websites for <br />
-                    startups with a refined sense of style and innovation. <br />
+                    <p>Helping Your Brand Build Seamless &  Engaging <br />Digital Products.
+                     <br />
                     </p>
                     </div>
                     <div className='st-btn'>
